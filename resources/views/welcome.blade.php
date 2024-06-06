@@ -289,89 +289,93 @@ Hero Area
 <!--==============================
 Food Box Area
 ==============================-->
-<section class="vs-food-box-wrapper food-box-layout7 pt-lg-120 pb-lg-130">
-    <div class="vs-container">
-        <div class="row vs-carousel arrow-has-margin" id="custom-food" data-arrows="true" data-slidetoshow="3"
-             data-lgslidetoshow="2"
-             data-mdslidetoshow="2" data-smslidetoshow="1" data-xsslidetoshow="1">
-            @foreach($items as $item)
-                <div class="col-lg-4" id="first-block">
-                    <div class="vs-food-box">
-                        <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"
-                             data-overlay="black" data-opacity="8">
-                        </div>
-                        <div class="food-inner">
-                            <div class="food-content">
-                                <h3 class="food-title"><a>{{$item->name}}</a></h3>
-                            </div>
-                            <button type="button" class="icon-btn getVariants" data-toggle="modal"
-                                    data-target="#exampleModalCenter" data-name="{{$item->id}}"><i
-                                        class="far fa-arrow-right"></i></button>
-                            <div class="food-img">
-                                <img src="assets/img/food-menu/food-menu-img-8-1.jpg" alt="food-img">
-                            </div>
-                        </div>
+{{--<section class="vs-food-box-wrapper food-box-layout7 pt-lg-120 pb-lg-130">--}}
+{{--    <div class="vs-container">--}}
+{{--        <div class="row vs-carousel arrow-has-margin" id="custom-food" data-arrows="true" data-slidetoshow="3"--}}
+{{--             data-lgslidetoshow="2"--}}
+{{--             data-mdslidetoshow="2" data-smslidetoshow="1" data-xsslidetoshow="1">--}}
+{{--            @foreach($items as $item)--}}
+{{--                <div class="col-lg-4" id="first-block">--}}
+{{--                    <div class="vs-food-box">--}}
+{{--                        <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
+{{--                             data-overlay="black" data-opacity="8">--}}
+{{--                        </div>--}}
+{{--                        <div class="food-inner">--}}
+{{--                            <div class="food-content">--}}
+{{--                                <h3 class="food-title"><a>{{$item->name}}</a></h3>--}}
+{{--                            </div>--}}
+{{--                            <button type="button" class="icon-btn getVariants" data-toggle="modal"--}}
+{{--                                    data-target="#exampleModalCenter" data-name="{{$item->id}}"><i--}}
+{{--                                        class="far fa-arrow-right"></i></button>--}}
+{{--                            <button type="button" class="icon-btn getVariants" data-toggle="modal"--}}
+{{--                                    data-target="#exampleModalCenter" data-name="{{$item->id}}">--}}
+{{--                                <i class="fas fa-eye"></i>--}}
+{{--                            </button>--}}
+{{--                            <div class="food-img">--}}
+{{--                                <img src="assets/img/food-menu/food-menu-img-8-1.jpg" alt="food-img">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                    </div>
-                </div>
-            @endforeach
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            @endforeach--}}
 
-            {{--            <div class="col-lg-4">--}}
-            {{--                <div class="vs-food-box">--}}
-            {{--                    <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
-            {{--                         data-overlay="black" data-opacity="8">--}}
-            {{--                    </div>--}}
-            {{--                    <div class="food-inner">--}}
-            {{--                        <div class="food-content">--}}
-            {{--                            <h3 class="food-title"><a href="menu-details.html">beef shawarma with sauce</a></h3>--}}
-            {{--                            <span class="food-price">$19.99</span>--}}
-            {{--                        </div>--}}
-            {{--                        <button type="button" class="icon-btn"><i class="far fa-arrow-right"></i></button>--}}
-            {{--                        <div class="food-img">--}}
-            {{--                            <img src="assets/img/food-menu/food-menu-img-8-2.jpg" alt="food-img">--}}
-            {{--                        </div>--}}
-            {{--                    </div>--}}
+{{--            <div class="col-lg-4">--}}
+{{--                <div class="vs-food-box">--}}
+{{--                    <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
+{{--                         data-overlay="black" data-opacity="8">--}}
+{{--                    </div>--}}
+{{--                    <div class="food-inner">--}}
+{{--                        <div class="food-content">--}}
+{{--                            <h3 class="food-title"><a href="menu-details.html">beef shawarma with sauce</a></h3>--}}
+{{--                            <span class="food-price">$19.99</span>--}}
+{{--                        </div>--}}
+{{--                        <button type="button" class="icon-btn"><i class="far fa-arrow-right"></i></button>--}}
+{{--                        <div class="food-img">--}}
+{{--                            <img src="assets/img/food-menu/food-menu-img-8-2.jpg" alt="food-img">--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-            {{--                </div>--}}
-            {{--            </div>--}}
-            {{--            <div class="col-lg-4">--}}
-            {{--                <div class="vs-food-box">--}}
-            {{--                    <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
-            {{--                         data-overlay="black" data-opacity="8">--}}
-            {{--                    </div>--}}
-            {{--                    <div class="food-inner">--}}
-            {{--                        <div class="food-content">--}}
-            {{--                            <h3 class="food-title"><a href="menu-details.html">double patty burger</a></h3>--}}
-            {{--                            <span class="food-price">$10.79</span>--}}
-            {{--                        </div>--}}
-            {{--                        <button type="button" class="icon-btn"><i class="far fa-arrow-right"></i></button>--}}
-            {{--                        <div class="food-img">--}}
-            {{--                            <img src="assets/img/food-menu/food-menu-img-8-3.jpg" alt="food-img">--}}
-            {{--                        </div>--}}
-            {{--                    </div>--}}
-            {{--                </div>--}}
-            {{--            </div>--}}
-            {{--            <div class="col-lg-4">--}}
-            {{--                <div class="vs-food-box">--}}
-            {{--                    <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
-            {{--                         data-overlay="black" data-opacity="8">--}}
-            {{--                    </div>--}}
-            {{--                    <div class="food-inner">--}}
-            {{--                        <div class="food-content">--}}
-            {{--                            <h3 class="food-title"><a href="menu-details.html">double patty burger</a></h3>--}}
-            {{--                            <span class="food-price">$10.79</span>--}}
-            {{--                        </div>--}}
-            {{--                        <button type="button" class="icon-btn"><i class="far fa-arrow-right"></i></button>--}}
-            {{--                        <div class="food-img">--}}
-            {{--                            <img src="assets/img/food-menu/food-menu-img-8-3.jpg" alt="food-img">--}}
-            {{--                        </div>--}}
-            {{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-4">--}}
+{{--                <div class="vs-food-box">--}}
+{{--                    <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
+{{--                         data-overlay="black" data-opacity="8">--}}
+{{--                    </div>--}}
+{{--                    <div class="food-inner">--}}
+{{--                        <div class="food-content">--}}
+{{--                            <h3 class="food-title"><a href="menu-details.html">double patty burger</a></h3>--}}
+{{--                            <span class="food-price">$10.79</span>--}}
+{{--                        </div>--}}
+{{--                        <button type="button" class="icon-btn"><i class="far fa-arrow-right"></i></button>--}}
+{{--                        <div class="food-img">--}}
+{{--                            <img src="assets/img/food-menu/food-menu-img-8-3.jpg" alt="food-img">--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-4">--}}
+{{--                <div class="vs-food-box">--}}
+{{--                    <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
+{{--                         data-overlay="black" data-opacity="8">--}}
+{{--                    </div>--}}
+{{--                    <div class="food-inner">--}}
+{{--                        <div class="food-content">--}}
+{{--                            <h3 class="food-title"><a href="menu-details.html">double patty burger</a></h3>--}}
+{{--                            <span class="food-price">$10.79</span>--}}
+{{--                        </div>--}}
+{{--                        <button type="button" class="icon-btn"><i class="far fa-arrow-right"></i></button>--}}
+{{--                        <div class="food-img">--}}
+{{--                            <img src="assets/img/food-menu/food-menu-img-8-3.jpg" alt="food-img">--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-            {{--                </div>--}}
-            {{--            </div>--}}
-        </div>
-    </div>
-</section>
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 <!--==============================
 Food Box Area
 ==============================-->
@@ -400,153 +404,11 @@ Food Box Area
                        aria-controls="party" aria-selected="true">Party</a></li>
                 <li><a class="vs-btn mask-style3" id="breakfast-food-tab" data-toggle="tab" href="#breakfast-food"
                        role="tab" aria-controls="breakfast-food" aria-selected="false">Breakfast</a></li>
-                <li><a class="vs-btn mask-style3" id="lunch-food-tab" data-toggle="tab" href="#lunch-food" role="tab"
-                       aria-controls="lunch-food" aria-selected="false">Lunch</a></li>
-                <li><a class="vs-btn mask-style3" id="dinner-food-tab" data-toggle="tab" href="#dinner-food" role="tab"
-                       aria-controls="dinner-food" aria-selected="false">Dinner</a></li>
-                <li><a class="vs-btn mask-style3" id="others-food-tab" data-toggle="tab" href="#others-food" role="tab"
-                       aria-controls="others-food" aria-selected="false">Others</a></li>
             </ul>
         </div>
         <div class="tab-content" id="foodTabContent">
             <div class="tab-pane fade  show active" id="party" aria-labelledby="party-tab">
-                <div class="row">
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$89.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-1.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Boiled Organic
-                                            Egg</a></h3>
-                                    <p class="food-text mb-0 text-xs">Sauce, Hot Burger, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$125.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-2.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Philadelphia
-                                            salmon</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Chomchom, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-3.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Western Sunrise</a>
-                                    </h3>
-                                    <p class="food-text mb-0 text-xs">Chingri Malai curry, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$499.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-4.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Antioxidant Fruits
-                                            Mix</a></h3>
-                                    <p class="food-text mb-0 text-xs">Dimer chop, Lau Chingri, Ruti</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$230.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-5.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Stuffed
-                                            Strawberry</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chomchom sweets, Malai curry</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$120.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-6.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Grilled Smoked
-                                            Chicken</a></h3>
-                                    <p class="food-text mb-0 text-xs">Morog Polao, Biryani, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-7.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Chipotle Chicken
-                                            Bowl</a></h3>
-                                    <p class="food-text mb-0 text-xs">Red Rice, Tehari, Drinks</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$699.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-8.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Party Platter
-                                            Wings</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Roust, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row" id="items">
                 </div>
             </div>
             <div class="tab-pane fade " id="breakfast-food" aria-labelledby="breakfast-food-tab">
@@ -675,426 +537,6 @@ Food Box Area
                             <div class="media-thumb">
                                 <strong class="food-price text-theme bg-white text-md">$699.00</strong>
                                 <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-16.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Party Platter
-                                            Wings</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Roust, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade " id="lunch-food" role="tabpanel" aria-labelledby="lunch-food-tab">
-                <div class="row">
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$89.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-17.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Boiled Organic
-                                            Egg</a></h3>
-                                    <p class="food-text mb-0 text-xs">Sauce, Hot Burger, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$125.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-9.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Philadelphia
-                                            salmon</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Chomchom, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-8.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Western Sunrise</a>
-                                    </h3>
-                                    <p class="food-text mb-0 text-xs">Chingri Malai curry, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$499.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-7.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Antioxidant Fruits
-                                            Mix</a></h3>
-                                    <p class="food-text mb-0 text-xs">Dimer chop, Lau Chingri, Ruti</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$230.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-6.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Stuffed
-                                            Strawberry</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chomchom sweets, Malai curry</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$120.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-5.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Grilled Smoked
-                                            Chicken</a></h3>
-                                    <p class="food-text mb-0 text-xs">Morog Polao, Biryani, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-4.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Chipotle Chicken
-                                            Bowl</a></h3>
-                                    <p class="food-text mb-0 text-xs">Red Rice, Tehari, Drinks</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$699.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-3.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Party Platter
-                                            Wings</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Roust, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade " id="dinner-food" role="tabpanel" aria-labelledby="dinner-food-tab">
-                <div class="row">
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$89.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-1.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Boiled Organic
-                                            Egg</a></h3>
-                                    <p class="food-text mb-0 text-xs">Sauce, Hot Burger, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$125.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-2.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Philadelphia
-                                            salmon</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Chomchom, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-5.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Western Sunrise</a>
-                                    </h3>
-                                    <p class="food-text mb-0 text-xs">Chingri Malai curry, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$499.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-6.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Antioxidant Fruits
-                                            Mix</a></h3>
-                                    <p class="food-text mb-0 text-xs">Dimer chop, Lau Chingri, Ruti</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$230.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-8.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Stuffed
-                                            Strawberry</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chomchom sweets, Malai curry</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$120.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-13.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Grilled Smoked
-                                            Chicken</a></h3>
-                                    <p class="food-text mb-0 text-xs">Morog Polao, Biryani, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-16.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Chipotle Chicken
-                                            Bowl</a></h3>
-                                    <p class="food-text mb-0 text-xs">Red Rice, Tehari, Drinks</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$699.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-15.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Party Platter
-                                            Wings</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Roust, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade " id="others-food" role="tabpanel" aria-labelledby="others-food-tab">
-                <div class="row">
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$89.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-3.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Boiled Organic
-                                            Egg</a></h3>
-                                    <p class="food-text mb-0 text-xs">Sauce, Hot Burger, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$125.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-17.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Philadelphia
-                                            salmon</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Chomchom, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-16.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Western Sunrise</a>
-                                    </h3>
-                                    <p class="food-text mb-0 text-xs">Chingri Malai curry, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$499.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-15.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Antioxidant Fruits
-                                            Mix</a></h3>
-                                    <p class="food-text mb-0 text-xs">Dimer chop, Lau Chingri, Ruti</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$230.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-14.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Stuffed
-                                            Strawberry</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chomchom sweets, Malai curry</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$120.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-13.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Grilled Smoked
-                                            Chicken</a></h3>
-                                    <p class="food-text mb-0 text-xs">Morog Polao, Biryani, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-12.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Chipotle Chicken
-                                            Bowl</a></h3>
-                                    <p class="food-text mb-0 text-xs">Red Rice, Tehari, Drinks</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$699.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-11.jpg"
                                                                  alt="Food Menu Image"></a>
                             </div>
                             <div class="media-body px-lg-35 d-flex align-items-center">
@@ -1489,28 +931,48 @@ About Area
         type: 'POST',
         url: "api/clients/items/list",
         success: function (response) {
+            // console.log(response)
             $.each(response.response, function (key, value) {
                 $.each(value.items, function (key2, item) {
-                    let html =
-                        '<div class="col-lg-4 slick-slide slick-current slick-active slick-last" style="width: 450px;" data-slick-index="0" aria-hidden="false" tabindex="0">' +
-                        '    <div class="vs-food-box">' +
-                        '        <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png" data-overlay="black" data-opacity="8" style="background-image: url(&quot;assets/img/footer/footer-bg-2-3.png&quot;);">' +
-                        '        </div>' +
-                        '        <div class="food-inner">' +
-                        '            <div class="food-content">' +
-                        '                <h3 class="food-title"><a href="menu-details.html" tabindex="0">' + item.name + '</a></h3>' +
-                        '                <span class="food-price">$10.99</span>' +
-                        '            </div>' +
-                        '            <button type="button" class="icon-btn" tabindex="0"><i class="far fa-arrow-right"></i></button>' +
-                        '            <div class="food-img">' +
-                        '                <img src="assets/img/food-menu/food-menu-img-8-1.jpg" alt="food-img">' +
-                        '            </div>' +
-                        '        </div>' +
-                        '     </div>' +
-                        ' </div>'
+                    let html = `
+                        <div class="col-sm-6 vs-food-box">
+                            <div class="media pt-40 align-items-stretch d-block d-lg-flex">
+                                <div class="media-thumb">
+                                    <img src="${item.picture}"
+                                                                     alt="Food Menu Image">
+                                </div>
+                                <div class="media-body px-lg-35 d-flex align-items-center">
+                                    <div class="food-content w-100">
+                                        <h3 class="food-title text-lg mb-0 getVariants">${item.name}</h3>
+                                        <p class="food-text mb-0 text-xs">${item.description}</p>
+                                        <span class="food-rating-icon text-theme text-md"><i
+                                            class="fas fa-star"></i></span>
+                                        <button type="button" class="vs-btn mask-style3 getVariants" data-toggle="modal"
+                                                data-target="#exampleModalCenter" data-name="${item.id}">
+                                            Выбрать
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+`
+                    $('#items').append(html)
+                    console.log(item)
+                })
+            })
+        }
+    })
+</script>
 
-                    //$('#first-block').after(html)
-                    // console.log(item)
+<script>
+    $.ajax({
+        type: 'POST',
+        url: "api/clients/items/list",
+        success: function (response) {
+            $.each(response.response, function (key, value) {
+                $.each(value.category, function (key2, category) {
+                // console.log(category)
+
                 })
             })
         }
@@ -1519,8 +981,7 @@ About Area
 
 <script>
     $(document).ready(function () {
-        // Обработчик клика для кнопок с классом 'getVariants'
-        $('.getVariants').on('click', function () {
+        $(document).on('click', '.getVariants', function () {
             let item_id = $(this).data('name'); // Получение ID элемента из атрибута data-name
 
             // AJAX запрос для получения вариантов блюда
@@ -1544,11 +1005,15 @@ About Area
                             <a class="${nav_item_class}" id="nav-${value.id}-tab" data-toggle="tab" data-name="${value.id}" href="#nav-${value.id}"
                                role="tab" aria-controls="nav-${value.id}" aria-selected="${index === 0}">${value.name}</a>
                         `;
+
+                        let variable = 1
+                        let kek = '<h1>' + variable + '</h1>'
+                        let kek1 = `<h1> ${variable} </h1>`
                         $('#nav-tab').append(nav_variant);
 
                         let tab_variant_picture = `
                             <div class="${tab_pane_class}" id="nav-${value.id}" role="tabpanel" aria-labelledby="nav-${value.id}-tab">
-                                <img style="width: 300px" class="m-4" src="https://sun9-33.userapi.com/impf/c637722/v637722313/67726/TEFBAshguv4.jpg?size=807x807&quality=96&sign=5e1e30f8617c3bbce78012d735393c6e&c_uniq_tag=_2rj9uwxmxOraM2fMu7RB-3Aaiecvz8MFqFI0vvdCmw&type=album" alt="">
+                                <img style="width: 300px" class="m-4" src="${value.picture}" alt="pizza-size">
                             </div>
                         `;
                         $('#nav-tabContent').append(tab_variant_picture);
