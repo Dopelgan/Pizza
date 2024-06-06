@@ -82,7 +82,8 @@ trait ApiPrepare
         return $itemVariant->only([
             'id',
             'name',
-            'price'
+            'price',
+            'picture'
         ]);
 
     }

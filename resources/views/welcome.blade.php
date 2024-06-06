@@ -89,7 +89,7 @@
     <button class="vs-btn mask-style1 preloaderCls">Cancel Preloader</button>
     <div class="preloader-inner">
         <div class="loader-logo">
-            <img src="assets/img/logo-white.svg" alt="Loader Image">
+            <img src="assets/img/logo-white.png" alt="Loader Image">
         </div>
         <div class="loader-wrap pt-4">
             <span class="loader"></span>
@@ -104,7 +104,7 @@ Sticky Header
         <div class="row align-items-center">
             <div class="col-5 col-md-3">
                 <div class="logo">
-                    <a href="index.html"><img src="assets/img/logo.svg" alt="logo"></a>
+                    <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
                 </div>
             </div>
             <div class="col-7 col-md-9 text-right position-static">
@@ -122,7 +122,7 @@ Mobile Menu
     <div class="vs-menu-area">
         <button class="vs-menu-toggle text-theme"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="index.html"><img src="assets/img/logo.svg" alt="logo"></a>
+            <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
         </div>
         <div class="vs-mobile-menu link-inherit"></div><!-- Menu Will Append With Javascript -->
     </div>
@@ -164,9 +164,9 @@ Header Area
                 <div class="row align-items-center">
                     <div class="col-auto align-self-stretch">
                         <div class="header-logo p-2">
-                            <a href="index.html"><img src="assets/img/logo-white.svg" class="d-none d-lg-block"
+                            <a href="index.html"><img src="assets/img/logo-white.png" class="d-none d-lg-block"
                                                       alt="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template"></a>
-                            <a href="index.html"><img src="assets/img/logo-white.svg" class="d-block d-lg-none"
+                            <a href="index.html"><img src="assets/img/logo-white.png" class="d-block d-lg-none"
                                                       alt="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template"></a>
                         </div>
                     </div>
@@ -302,9 +302,9 @@ Food Box Area
                         </div>
                         <div class="food-inner">
                             <div class="food-content">
-                                <h3 class="food-title"><a href="menu-details.html">{{$item->name}}</a></h3>
+                                <h3 class="food-title"><a>{{$item->name}}</a></h3>
                             </div>
-                            <button type="button" class="icon-btn getCategories" data-toggle="modal"
+                            <button type="button" class="icon-btn getVariants" data-toggle="modal"
                                     data-target="#exampleModalCenter" data-name="{{$item->id}}"><i
                                         class="far fa-arrow-right"></i></button>
                             <div class="food-img">
@@ -1227,7 +1227,8 @@ About Area
 <!--==============================
   Promotional Banner
 ==============================-->
-<img src="assets/img/food-menu/bg-shape-1-1.png" alt="Bg Shape Image" class="ani-moving-y position-absolute shape2" style="right: 40px; z-index: 1000">
+<img src="assets/img/food-menu/bg-shape-1-1.png" alt="Bg Shape Image" class="ani-moving-y position-absolute shape2"
+     style="right: 40px; z-index: 1000">
 <div class="vs-promotional-banner position-relative pb-lg-130 pb-60">
     <div class="vs-container background-image position-relative" data-vs-img="assets/img/bg/banner-bg1.png">
         <div class="row align-items-center">
@@ -1305,7 +1306,7 @@ About Area
                 <div class="col-lg-4 col-md-6">
                     <div class="widget pt-0">
                         <div class="vs-widget-about">
-                            <a href="index.html" class="d-inline-block mb-25"><img src="assets/img/logo-white.svg"
+                            <a href="index.html" class="d-inline-block mb-25"><img src="assets/img/logo-white.png"
                                                                                    alt="Logo"></a>
                             <p class="contact-info contact-number mb-10"><a href="tel:+65965252561">+659 6525 2561</a>
                             </p>
@@ -1422,21 +1423,29 @@ About Area
 <a href="#" class="scrollToTop icon-btn bg-theme border-before-theme"><i class="far fa-angle-up"></i></a>
 
 <!-- Модальное окно -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel"
      aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Варианты товара:</h5>
+                <h3 class="modal-title" id="exampleModalLongTitle">Варианты товара:</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body" id="modal">
+            <div class="modal-body row d-flex justify-content-center" id="modal-body">
+                <div class="tab-content" id="nav-tabContent"></div>
+                <div class="d-flex flex-column " style="width: 350px">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"></div>
+                    </nav>
+                    <h5 id="compound"></h5>
+                </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-                <button type="button" class="btn btn-primary">Сохранить изменения</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-light">Сохранить изменения</button>
             </div>
         </div>
     </div>
@@ -1507,30 +1516,58 @@ About Area
         }
     })
 </script>
+
 <script>
-    $('.getCategories').on('click', function () {
-        // действия, которые будут выполнены при наступлении события...
-        let item_id = $(this).attr('data-name')
-        $.ajax({
-            type: 'POST',
-            url: "api/clients/items/get/" + item_id,
-            success: function (response) {
-                console.log(response)
-                $.each(response.response.variants, function (key, value) {
+    $(document).ready(function () {
+        // Обработчик клика для кнопок с классом 'getVariants'
+        $('.getVariants').on('click', function () {
+            let item_id = $(this).data('name'); // Получение ID элемента из атрибута data-name
 
-                    console.log(key, value)
-                    let html =
-                        '<div>' + value.name + '</div>'
+            // AJAX запрос для получения вариантов блюда
+            $.ajax({
+                type: 'POST',
+                url: `api/clients/items/get/${item_id}`,
+                success: function (response) {
+                    let variants = response.response.variants;
+                    let item = response.response.item;
 
-                    $('#modal').append(html)
-                    // console.log(item)
-                })
-            }
-        })
-    })
-    ;
+                    // Очистка старых данных перед добавлением новых
+                    $('#nav-tab').empty();
+                    $('#nav-tabContent').empty();
 
+                    // Добавление вариантов блюда
+                    $.each(variants, function (index, value) {
+                        let nav_item_class = index === 0 ? 'nav-item nav-link active' : 'nav-item nav-link';
+                        let tab_pane_class = index === 0 ? 'tab-pane fade show active' : 'tab-pane fade';
+
+                        let nav_variant = `
+                            <a class="${nav_item_class}" id="nav-${value.id}-tab" data-toggle="tab" data-name="${value.id}" href="#nav-${value.id}"
+                               role="tab" aria-controls="nav-${value.id}" aria-selected="${index === 0}">${value.name}</a>
+                        `;
+                        $('#nav-tab').append(nav_variant);
+
+                        let tab_variant_picture = `
+                            <div class="${tab_pane_class}" id="nav-${value.id}" role="tabpanel" aria-labelledby="nav-${value.id}-tab">
+                                <img style="width: 300px" class="m-4" src="https://sun9-33.userapi.com/impf/c637722/v637722313/67726/TEFBAshguv4.jpg?size=807x807&quality=96&sign=5e1e30f8617c3bbce78012d735393c6e&c_uniq_tag=_2rj9uwxmxOraM2fMu7RB-3Aaiecvz8MFqFI0vvdCmw&type=album" alt="">
+                            </div>
+                        `;
+                        $('#nav-tabContent').append(tab_variant_picture);
+                    });
+
+                    // Обновление заголовка модального окна и описания
+                    $('#exampleModalLongTitle').html(`<h3 class="modal-title">${item.name}</h3>`);
+                    $('#compound').html(`<h5 class="m-3">${item.description}</h5>`);
+                },
+                error: function (xhr, status, error) {
+                    // Обработчик ошибок
+                    console.error('Ошибка при выполнении запроса:', status, error);
+                    alert('Произошла ошибка при загрузке данных. Пожалуйста, попробуйте позже.');
+                }
+            });
+        });
+    });
 </script>
+
 </body>
 
 </html>
