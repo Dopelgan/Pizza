@@ -381,7 +381,7 @@ Food Box Area
 ==============================-->
 <section
         class="vs-food-box-wrapper position-relative food-box-layout1 link-inherit background-image pt-lg-150 pb-lg-120 pb-30"
-        data-vs-img="assets/img/food-menu/food-menu-bg-img-1-1.png" data-overlay="white" data-opacity="7" id="menu"
+        data-vs-img="assets/img/food-menu/food-menu-bg-img-1-1.png" data-overlay="white" data-opacity="8" id="menu"
         style="background-image: url(&quot;assets/img/food-menu/food-menu-bg-img-1-1.png&quot;);">
     <span class="shape1 position-absolute ani-moving"><i class="flaticon-berries icon-6x" data-opacity="1"></i></span>
     <div class="container">
@@ -806,7 +806,7 @@ About Area
                                     <img src="${item.picture}" alt="Food Menu Image">
                                 </div>
                                 <div class="media-body px-lg-35 d-flex align-items-center">
-                                    <div class="food-content w-100">
+                                    <div class="food-content w-100 m-3">
                                         <h3 class="food-title text-lg mb-0 getVariants">${item.name}</h3>
                                         <p class="food-text mb-0 text-xs">${item.description}</p>
                                         <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
