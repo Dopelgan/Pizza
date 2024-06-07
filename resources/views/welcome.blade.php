@@ -399,158 +399,10 @@ Food Box Area
             </div>
         </div>
         <div class="food-menu-wrapper food-menu-style1 list-style-none text-center pb-lg-50 pb-20">
-            <ul class="nav nav-tabs d-block border-0" role="tablist">
-                <li><a class="vs-btn mask-style3 active" id="party-tab" data-toggle="tab" href="#party" role="tab"
-                       aria-controls="party" aria-selected="true">Party</a></li>
-                <li><a class="vs-btn mask-style3" id="breakfast-food-tab" data-toggle="tab" href="#breakfast-food"
-                       role="tab" aria-controls="breakfast-food" aria-selected="false">Breakfast</a></li>
+            <ul class="nav nav-tabs d-block border-0" role="tablist" id="categories">
             </ul>
         </div>
         <div class="tab-content" id="foodTabContent">
-            <div class="tab-pane fade  show active" id="party" aria-labelledby="party-tab">
-                <div class="row" id="items">
-                </div>
-            </div>
-            <div class="tab-pane fade " id="breakfast-food" aria-labelledby="breakfast-food-tab">
-                <div class="row">
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$89.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-9.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Boiled Organic
-                                            Egg</a></h3>
-                                    <p class="food-text mb-0 text-xs">Sauce, Hot Burger, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$125.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-10.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Philadelphia
-                                            salmon</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Chomchom, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-11.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Western Sunrise</a>
-                                    </h3>
-                                    <p class="food-text mb-0 text-xs">Chingri Malai curry, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$499.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-12.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Antioxidant Fruits
-                                            Mix</a></h3>
-                                    <p class="food-text mb-0 text-xs">Dimer chop, Lau Chingri, Ruti</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$230.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-13.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Stuffed
-                                            Strawberry</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chomchom sweets, Malai curry</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$120.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-14.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Grilled Smoked
-                                            Chicken</a></h3>
-                                    <p class="food-text mb-0 text-xs">Morog Polao, Biryani, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$79.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-15.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Chipotle Chicken
-                                            Bowl</a></h3>
-                                    <p class="food-text mb-0 text-xs">Red Rice, Tehari, Drinks</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 vs-food-box">
-                        <div class="media pt-40 align-items-stretch d-block d-lg-flex">
-                            <div class="media-thumb">
-                                <strong class="food-price text-theme bg-white text-md">$699.00</strong>
-                                <a href="menu-details.html"><img src="assets/img/food-menu/food-menu-img-1-16.jpg"
-                                                                 alt="Food Menu Image"></a>
-                            </div>
-                            <div class="media-body px-lg-35 d-flex align-items-center">
-                                <div class="food-content w-100">
-                                    <h3 class="food-title text-lg mb-0"><a href="menu-details.html">Party Platter
-                                            Wings</a></h3>
-                                    <p class="food-text mb-0 text-xs">Chilli bites, Roust, Soft Drink</p>
-                                    <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -876,18 +728,14 @@ About Area
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body row d-flex justify-content-center" id="modal-body">
-                <div class="tab-content" id="nav-tabContent"></div>
-                <div class="d-flex flex-column " style="width: 350px">
+            <div class="modal-body row d-flex justify-content-around" id="modal-body">
+                <div class="d-flex flex-column m-2" style="width: 340px">
                     <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist"></div>
                     </nav>
                     <h5 id="compound"></h5>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
-                <button type="button" class="btn btn-light">Сохранить изменения</button>
+                <div class="tab-content" id="nav-tabContent"></div>
             </div>
         </div>
     </div>
@@ -926,27 +774,42 @@ About Area
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
 <!-- Main Js File -->
 <script src="{{ asset('assets/js/main.js') }}"></script>
+
+{{--Отображение меню с разбивкой блюд по категориям--}}
 <script>
-    $.ajax({
-        type: 'POST',
-        url: "api/clients/items/list",
-        success: function (response) {
-            // console.log(response)
+    $(document).ready(function () {
+        // Функция для обработки данных из AJAX ответа
+        function handleResponse(response) {
             $.each(response.response, function (key, value) {
+                // Добавление категорий в навигацию
+                let categoryNavHtml = `
+                    <li><a class="vs-btn mask-style3" id="category_${value.category.id}-tab" data-toggle="tab" href="#category_${value.category.id}" role="tab"
+                       aria-controls="category_${value.category.id}" aria-selected="false">${value.category.name}</a></li>
+                `;
+                $('#categories').append(categoryNavHtml);
+
+                // Добавление контейнеров для категорий
+                let categoryContentHtml = `
+                    <div class="tab-pane fade" id="category_${value.category.id}" aria-labelledby="category_${value.category.id}-tab">
+                        <div class="row" id="items_category_${value.category.id}">
+                        </div>
+                    </div>
+                `;
+                $('#foodTabContent').append(categoryContentHtml);
+
+                // Добавление элементов меню в соответствующие категории
                 $.each(value.items, function (key2, item) {
-                    let html = `
+                    let itemHtml = `
                         <div class="col-sm-6 vs-food-box">
                             <div class="media pt-40 align-items-stretch d-block d-lg-flex">
                                 <div class="media-thumb">
-                                    <img src="${item.picture}"
-                                                                     alt="Food Menu Image">
+                                    <img src="${item.picture}" alt="Food Menu Image">
                                 </div>
                                 <div class="media-body px-lg-35 d-flex align-items-center">
                                     <div class="food-content w-100">
                                         <h3 class="food-title text-lg mb-0 getVariants">${item.name}</h3>
                                         <p class="food-text mb-0 text-xs">${item.description}</p>
-                                        <span class="food-rating-icon text-theme text-md"><i
-                                            class="fas fa-star"></i></span>
+                                        <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
                                         <button type="button" class="vs-btn mask-style3 getVariants" data-toggle="modal"
                                                 data-target="#exampleModalCenter" data-name="${item.id}">
                                             Выбрать
@@ -955,30 +818,29 @@ About Area
                                 </div>
                             </div>
                         </div>
-`
-                    $('#items').append(html)
-                    console.log(item)
-                })
-            })
+                    `;
+                    $(`#items_category_${value.category.id}`).append(itemHtml);
+                });
+            });
+
+            // Установка активного состояния для первой категории и контента
+            $('#categories li:first-child a').addClass('active').attr('aria-selected', 'true');
+            $('#foodTabContent .tab-pane:first-child').addClass('show active');
         }
-    })
+
+        // Выполнение AJAX запроса
+        $.ajax({
+            type: 'POST',
+            url: "api/clients/items/list",
+            success: handleResponse,
+            error: function (xhr, status, error) {
+                console.error('Ошибка при выполнении запроса:', status, error);
+            }
+        });
+    });
 </script>
 
-<script>
-    $.ajax({
-        type: 'POST',
-        url: "api/clients/items/list",
-        success: function (response) {
-            $.each(response.response, function (key, value) {
-                $.each(value.category, function (key2, category) {
-                // console.log(category)
-
-                })
-            })
-        }
-    })
-</script>
-
+{{--Отображение модального окна с вариантами блюда--}}
 <script>
     $(document).ready(function () {
         $(document).on('click', '.getVariants', function () {
@@ -998,7 +860,7 @@ About Area
 
                     // Добавление вариантов блюда
                     $.each(variants, function (index, value) {
-                        let nav_item_class = index === 0 ? 'nav-item nav-link active' : 'nav-item nav-link';
+                        let nav_item_class = index === 0 ? 'nav-item nav-link active small' : 'nav-item nav-link small';
                         let tab_pane_class = index === 0 ? 'tab-pane fade show active' : 'tab-pane fade';
 
                         let nav_variant = `
@@ -1006,22 +868,21 @@ About Area
                                role="tab" aria-controls="nav-${value.id}" aria-selected="${index === 0}">${value.name}</a>
                         `;
 
-                        let variable = 1
-                        let kek = '<h1>' + variable + '</h1>'
-                        let kek1 = `<h1> ${variable} </h1>`
-                        $('#nav-tab').append(nav_variant);
-
-                        let tab_variant_picture = `
+                        let tab_variant = `
                             <div class="${tab_pane_class}" id="nav-${value.id}" role="tabpanel" aria-labelledby="nav-${value.id}-tab">
-                                <img style="width: 300px" class="m-4" src="${value.picture}" alt="pizza-size">
+                                <img style="width: 350px" class="m-2" src="${value.picture}" alt="pizza-size">
+                                <p></p>
+                                <button type="button" class="vs-btn mask-style1" style="left: 115px" id="to-basket-button">В корзину за ${value.price} ₽</button>
                             </div>
                         `;
-                        $('#nav-tabContent').append(tab_variant_picture);
+
+                        $('#nav-tab').append(nav_variant);
+                        $('#nav-tabContent').append(tab_variant);
                     });
 
                     // Обновление заголовка модального окна и описания
                     $('#exampleModalLongTitle').html(`<h3 class="modal-title">${item.name}</h3>`);
-                    $('#compound').html(`<h5 class="m-3">${item.description}</h5>`);
+                    $('#compound').html(`<h5 class="food-text text-xs m-3">${item.description}</h5>`);
                 },
                 error: function (xhr, status, error) {
                     // Обработчик ошибок
