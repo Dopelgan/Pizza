@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Grillino - Food Restaurant Cafe Grill & Bistro HTML Template - Home Seven</title>
+    <title>Grillino - Food Restaurant Cafe Grill & Bistro HTML Template - Home Five - One Page</title>
     <meta name="author" content="Vecuro">
     <meta name="description" content="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template">
-    <meta name="keywords" content="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template">
+    <meta name="keywords" content="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template" />
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -17,24 +17,22 @@
 	   Google Web Fonts
 	============================== -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@300;400;500;700&family=Rufina:wght@400;700&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@300;400;500;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicons/apple-icon-76x76.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicons/apple-icon-114x114.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicons/apple-icon-120x120.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicons/apple-icon-144x144.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicons/apple-icon-152x152.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-icon-180x180.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192"
-          href="{{ asset('assets/img/favicons/android-icon-192x192.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
@@ -45,25 +43,25 @@
 	============================== -->
     <!-- Bootstrap -->
     <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Flat Icon -->
-    <link rel="stylesheet" href="{{ asset('assets/css/flaticon.min.css') }}">
+    <link rel="stylesheet" href="assets/css/flaticon.min.css">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <!-- Date Picker -->
-    <link rel="stylesheet" href="{{ asset('assets/css/jquery.datetimepicker.min.css') }}">
+    <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
     <!-- Layer Slider -->
-    <link rel="stylesheet" href="{{ asset('assets/css/layerslider.min.css') }}">
+    <link rel="stylesheet" href="assets/css/layerslider.min.css">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!-- Nice Select -->
-    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.min.css') }}">
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
     <!-- Slick Slider -->
-    <link rel="stylesheet" href="{{ asset('assets/css/slick.min.css') }}">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Theme Color CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/theme-color1.css') }}">
+    <link rel="stylesheet" href="assets/css/theme-color1.css">
     <link rel="stylesheet" id="themeColor" href="#">
 
 </head>
@@ -72,9 +70,9 @@
 
 
 <!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience and security.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
+
 
 
 <!--********************************
@@ -82,11 +80,13 @@
 ******************************** -->
 
 
+
+
 <!--==============================
  Preloader
 ==============================-->
 <div class="preloader  ">
-    <button class="vs-btn mask-style1 preloaderCls">Cancel Preloader</button>
+    <button class="vs-btn mask-style1 preloaderCls">Cancel Preloader </button>
     <div class="preloader-inner">
         <div class="loader-logo">
             <img src="assets/img/logo-white.png" alt="Loader Image">
@@ -96,21 +96,38 @@
         </div>
     </div>
 </div>
+<!--==============================
+Popup Search Box
+============================== -->
+<div class="popup-search-box d-none d-lg-block  ">
+    <button class="searchClose border-theme text-theme"><i class="fal fa-times"></i></button>
+    <form action="#">
+        <input type="text" class="border-theme" placeholder="What are you looking for">
+        <button type="submit"><i class="fal fa-search"></i></button>
+    </form>
+</div>
 <!--========================
 Sticky Header
 ========================-->
 <div class="sticky-header-wrap sticky-header py-1 py-sm-2 py-lg-1">
-    <div class="vs-container position-relative">
+    <div class="container">
         <div class="row align-items-center">
             <div class="col-5 col-md-3">
                 <div class="logo">
                     <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
                 </div>
             </div>
-            <div class="col-7 col-md-9 text-right position-static">
-
-                <button class="vs-menu-toggle text-theme border-theme d-inline-block d-lg-none"><i
-                            class="far fa-bars"></i></button>
+            <div class="col-7 col-md-9 text-right">
+                <nav class="main-menu menu-sticky1 onepage-nav d-none d-lg-block link-inherit mobile-menu-active">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#app">App</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </nav>
+                <button class="vs-menu-toggle text-theme border-theme d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
             </div>
         </div>
     </div>
@@ -128,68 +145,43 @@ Mobile Menu
     </div>
 </div>
 <!--==============================
-Header Area
+    Header Area
 ==============================-->
-<header class="header-wrapper header-layout7">
-    <div class="header-top">
-        <div class="vs-container">
-            <div class="row justify-content-xl-between justify-content-md-center align-items-center gx-50">
-                <div class="col d-none d-xl-block">
-                    <p class="contact-info mb-0"><i class="fal fa-shipping-fast"></i><a href="#">Free Delivery on all
-                            orders Over $50</a></p>
-                </div>
-                <div class="col-md-auto d-flex align-items-center text-center">
-                    <p class="contact-info mb-0"><i class="fas fa-map-marker-alt"></i><a href="#">Rd. Allentown, New
-                            Mexico 31134</a></p>
-                    <div class="social-links links-has-border">
-                        <ul>
-                            <li>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+<header class="header-wrapper header-layout2 position-absolute py-10 py-lg-30 px-xl-115">
+    <div class="container-fluid position-relative">
+        <div class="row align-items-center">
+            <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="header-logo">
+                    <a href="index.html"><img src="assets/img/logo-white.png" alt="Logo" class="d-none d-lg-block"></a>
+                    <a href="index.html"><img src="assets/img/logo.png" alt="Logo" class="d-block d-lg-none"></a>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="header-menu">
-        <div class="vs-container position-relative">
-            <div class="header-menu">
-                <div class="row align-items-center">
-                    <div class="col-auto align-self-stretch">
-                        <div class="header-logo p-2">
-                            <a href="index.html"><img src="assets/img/logo-white.png" class="d-none d-lg-block"
-                                                      alt="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template"></a>
-                            <a href="index.html"><img src="assets/img/logo-white.png" class="d-block d-lg-none"
-                                                      alt="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template"></a>
+            <div class="col-6 col-md-9 col-lg-7 col-xl-5 position-static">
+                <nav class="main-menu menu-style4 link-inherit text-right text-xl-left mobile-menu-active onepage-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#app">App</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="vs-menu-toggle ml-auto d-block text-theme border-theme d-lg-none"><i class="far fa-bars"></i></button>
+            </div>
+            <div class="col-lg-3 col-xl-5">
+                <div class="header-right d-none d-lg-flex align-items-center justify-content-end">
+                    <div class="contact-info media align-items-center d-none d-xl-flex">
+                        <div class="media-icon mr-15 pl-30" data-overlay="white" data-opacity="1">
+                            <i class="fal fa-clock text-white fa-2x"></i>
+                        </div>
+                        <div class="media-body">
+                            <span class="text-white-light">Call for Order</span>
+                            <p class="mb-0 h4 text-font1 text-white"><a href="tel:+869526212"><strong>+869 526 212</strong></a></p>
                         </div>
                     </div>
-                    <div class="col position-static">
-
-                        <button type="button" class="vs-menu-toggle ml-auto d-block text-theme border-theme d-lg-none">
-                            <i class="far fa-bars"></i></button>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <div class="header-right d-none d-lg-flex align-items-center justify-content-end">
-                            <div class="contact-info pl-0 media align-items-center d-none d-xl-flex">
-                                <div class="media-icon icon-btn">
-                                    <i class="fas fa-mobile-android-alt"></i>
-                                </div>
-                                <div class="media-body">
-                                    <p class="text-font1"><a href="tel:+869526212">+869 526 212</a></p>
-                                </div>
-                            </div>
-                            <div class="header-btn pl-xl-50">
-                                <a href="#" class="icon-btn text-theme sideMenuToggler cart-btn"><span
-                                            class="number">9</span><i class="fas fa-shopping-bag"></i></a>
-                            </div>
-                        </div>
+                    <div class="header-btn pl-lg-50">
+                        <a href="#" class="icon-btn text-red mr-15 searchBoxTggler"><i class="fal fa-search"></i></a>
+                        <a href="#" class="icon-btn text-red sideMenuToggler cart-btn"><span class="number bg-theme">9</span><i class="fal fa-shopping-cart"></i></a>
                     </div>
                 </div>
             </div>
@@ -197,91 +189,39 @@ Header Area
     </div>
 </header>
 <!--==============================
-Hero Area
+    Hero Area
 ==============================-->
-<section class="vs-hero-wrapper vs-hero-layout7">
-    <div class="vs-hero-carousel  navprevnext-white navbuttons-white" data-height="860px" data-slidertype="fullwidth"
-         data-container="1280" data-navprevnext="true">
-        <div class="vs-hero-slide ls-slide" data-ls="duration: 7000; transition2d: 5;">
-            <img src="assets/img/hero/hero-img-bg-6-1.jpg" alt="Slide Image" class="ls-bg">
-            <img src="assets/img/hero/hero-img-7-3.png" alt="Hero Image" class="ls-l" style="left: 640px; top: 220px;"
-                 data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
-            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
-               data-ls-desktop="top: 317px; font-size: 48px;"
-               style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;"
-               data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Good Food Good Mood</p>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
-                data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;"
-                data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Fresh & Grilled</h1>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;"
-                data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;"
-                data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Foods</h1>
-            <div class="hero-btn ls-l  ls-responsive"
-                 data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;"
-                 data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;"
-                 data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;"
-                 style="left: 60px;  overflow: hidden; border-radius: 50px;  "
-                 data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
-                <a href="reservation.html" class="vs-btn mask-style3"><i class="fal fa-calendar-alt mr-2"></i> Book A
-                    Table</a>
-            </div>
-        </div>
+<section class="vs-hero-wrapper vs-hero-layout5  ">
+    <div class="vs-hero-carousel  navprevnext-white navbuttons-white" data-height="860px" data-slidertype="fullwidth" data-container="1280" data-navprevnext="true">
+        <div class="hero-shape1 ani-moving-x d-none d-xl-block"><img src="assets/img/hero/chille.png" alt="Chille"></div>
         <div class="vs-hero-slide ls-slide" data-ls="duration: 70000; transition2d: 5;">
-            <img src="assets/img/hero/hero-img-bg-7-1.jpg" alt="Slide Image" class="ls-bg">
-            <img src="assets/img/hero/hero-img-7-1.png" alt="Hero Image" class="ls-l" data-ls-tablet="top:70px;"
-                 style="left: 650px; top: 190px;"
-                 data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
-            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
-               data-ls-desktop="top: 317px; font-size: 48px;"
-               style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;"
-               data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Good Food Good Mood</p>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
-                data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px;  color: #fff; "
-                data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Super Delicious</h1>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;"
-                data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px;  color: #fff; "
-                data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Foods</h1>
-            <div class="hero-btn ls-l ls-responsive"
-                 data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;"
-                 data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;"
-                 data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;"
-                 style="left: 60px;  overflow: hidden; border-radius: 50px;  "
-                 data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
-                <a href="reservation.html" class="vs-btn mask-style3"><i class="fal fa-calendar-alt mr-2"></i> Book A
-                    Table</a>
+            <img src="assets/img/hero/hero-img-5-bg-1.png" alt="Slide Image" class="ls-bg">
+            <img src="assets/img/hero/hero-img-5-1.png" alt="Hero Image" class="ls-l" style="left: 670px; top: 220px;" data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
+            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;" data-ls-desktop="top: 317px; font-size: 48px;" style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;" data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Good Food Good Mood</p>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;" data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px;  color: #fff; " data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Super Delicious</h1>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;" data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px;  color: #fff; " data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Foods</h1>
+            <div class="hero-btn ls-l ls-responsive" data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;" data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;" data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;" style="left: 60px;  overflow: hidden; border-radius: 50px;  " data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
+                <a href="reservation.html" class="vs-btn mask-style3"><i class="fal fa-calendar-alt mr-2"></i> Book A Table</a>
             </div>
         </div>
         <div class="vs-hero-slide ls-slide" data-ls="duration: 7000; transition2d: 5;">
-            <img src="assets/img/hero/hero-img-bg-6-1.jpg" alt="Slide Image" class="ls-bg">
-            <img src="assets/img/hero/hero-img-7-2.png" alt="Hero Image" class="ls-l" style="left: 630px; top: 190px;"
-                 data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
-            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
-               data-ls-desktop="top: 317px; font-size: 48px;"
-               style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;"
-               data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Good Food Good Mood</p>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
-                data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;"
-                data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Natural Healthy</h1>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;"
-                data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;"
-                data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Foods</h1>
-            <div class="hero-btn ls-l  ls-responsive"
-                 data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;"
-                 data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;"
-                 data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;"
-                 style="left: 60px;  overflow: hidden; border-radius: 50px;  "
-                 data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
-                <a href="reservation.html" class="vs-btn mask-style3"><i class="fal fa-calendar-alt mr-2"></i> Book A
-                    Table</a>
+            <img src="assets/img/hero/hero-img-5-bg-1.png" alt="Slide Image" class="ls-bg">
+            <img src="assets/img/hero/hero-img-5-2.png" alt="Hero Image" class="ls-l" style="left: 620px; top: 250px;" data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
+            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;" data-ls-desktop="top: 317px; font-size: 48px;" style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;" data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Good Food Good Mood</p>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;" data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;" data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Natural Healthy</h1>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;" data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;" data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Foods</h1>
+            <div class="hero-btn ls-l  ls-responsive" data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;" data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;" data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;" style="left: 60px;  overflow: hidden; border-radius: 50px;  " data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
+                <a href="reservation.html" class="vs-btn mask-style3"><i class="fal fa-calendar-alt mr-2"></i> Book A Table</a>
+            </div>
+        </div>
+        <div class="vs-hero-slide ls-slide" data-ls="duration: 7000; transition2d: 5;">
+            <img src="assets/img/hero/hero-img-5-bg-1.png" alt="Slide Image" class="ls-bg">
+            <img src="assets/img/hero/hero-img-5-3.png" alt="Hero Image" class="ls-l" style="left: 640px; top: 220px;" data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
+            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;" data-ls-desktop="top: 317px; font-size: 48px;" style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;" data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Good Food Good Mood</p>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;" data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;" data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Fresh & Grilled</h1>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;" data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;" data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Foods</h1>
+            <div class="hero-btn ls-l  ls-responsive" data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;" data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;" data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;" style="left: 60px;  overflow: hidden; border-radius: 50px;  " data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
+                <a href="reservation.html" class="vs-btn mask-style3"><i class="fal fa-calendar-alt mr-2"></i> Book A Table</a>
             </div>
         </div>
     </div>
@@ -289,98 +229,8 @@ Hero Area
 <!--==============================
 Food Box Area
 ==============================-->
-{{--<section class="vs-food-box-wrapper food-box-layout7 pt-lg-120 pb-lg-130">--}}
-{{--    <div class="vs-container">--}}
-{{--        <div class="row vs-carousel arrow-has-margin" id="custom-food" data-arrows="true" data-slidetoshow="3"--}}
-{{--             data-lgslidetoshow="2"--}}
-{{--             data-mdslidetoshow="2" data-smslidetoshow="1" data-xsslidetoshow="1">--}}
-{{--            @foreach($items as $item)--}}
-{{--                <div class="col-lg-4" id="first-block">--}}
-{{--                    <div class="vs-food-box">--}}
-{{--                        <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
-{{--                             data-overlay="black" data-opacity="8">--}}
-{{--                        </div>--}}
-{{--                        <div class="food-inner">--}}
-{{--                            <div class="food-content">--}}
-{{--                                <h3 class="food-title"><a>{{$item->name}}</a></h3>--}}
-{{--                            </div>--}}
-{{--                            <button type="button" class="icon-btn getVariants" data-toggle="modal"--}}
-{{--                                    data-target="#exampleModalCenter" data-name="{{$item->id}}"><i--}}
-{{--                                        class="far fa-arrow-right"></i></button>--}}
-{{--                            <button type="button" class="icon-btn getVariants" data-toggle="modal"--}}
-{{--                                    data-target="#exampleModalCenter" data-name="{{$item->id}}">--}}
-{{--                                <i class="fas fa-eye"></i>--}}
-{{--                            </button>--}}
-{{--                            <div class="food-img">--}}
-{{--                                <img src="assets/img/food-menu/food-menu-img-8-1.jpg" alt="food-img">--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            @endforeach--}}
-
-{{--            <div class="col-lg-4">--}}
-{{--                <div class="vs-food-box">--}}
-{{--                    <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
-{{--                         data-overlay="black" data-opacity="8">--}}
-{{--                    </div>--}}
-{{--                    <div class="food-inner">--}}
-{{--                        <div class="food-content">--}}
-{{--                            <h3 class="food-title"><a href="menu-details.html">beef shawarma with sauce</a></h3>--}}
-{{--                            <span class="food-price">$19.99</span>--}}
-{{--                        </div>--}}
-{{--                        <button type="button" class="icon-btn"><i class="far fa-arrow-right"></i></button>--}}
-{{--                        <div class="food-img">--}}
-{{--                            <img src="assets/img/food-menu/food-menu-img-8-2.jpg" alt="food-img">--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="col-lg-4">--}}
-{{--                <div class="vs-food-box">--}}
-{{--                    <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
-{{--                         data-overlay="black" data-opacity="8">--}}
-{{--                    </div>--}}
-{{--                    <div class="food-inner">--}}
-{{--                        <div class="food-content">--}}
-{{--                            <h3 class="food-title"><a href="menu-details.html">double patty burger</a></h3>--}}
-{{--                            <span class="food-price">$10.79</span>--}}
-{{--                        </div>--}}
-{{--                        <button type="button" class="icon-btn"><i class="far fa-arrow-right"></i></button>--}}
-{{--                        <div class="food-img">--}}
-{{--                            <img src="assets/img/food-menu/food-menu-img-8-3.jpg" alt="food-img">--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="col-lg-4">--}}
-{{--                <div class="vs-food-box">--}}
-{{--                    <div class="food-bg background-image" data-vs-img="assets/img/footer/footer-bg-2-3.png"--}}
-{{--                         data-overlay="black" data-opacity="8">--}}
-{{--                    </div>--}}
-{{--                    <div class="food-inner">--}}
-{{--                        <div class="food-content">--}}
-{{--                            <h3 class="food-title"><a href="menu-details.html">double patty burger</a></h3>--}}
-{{--                            <span class="food-price">$10.79</span>--}}
-{{--                        </div>--}}
-{{--                        <button type="button" class="icon-btn"><i class="far fa-arrow-right"></i></button>--}}
-{{--                        <div class="food-img">--}}
-{{--                            <img src="assets/img/food-menu/food-menu-img-8-3.jpg" alt="food-img">--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</section>--}}
-<!--==============================
-Food Box Area
-==============================-->
 <section
-        class="vs-food-box-wrapper position-relative food-box-layout1 link-inherit background-image pt-lg-150 pb-lg-120 pb-30"
+        class="vs-food-box-wrapper position-relative food-box-layout1 link-inherit background-image pt-lg-80 pb-lg-120 pb-30"
         data-vs-img="assets/img/food-menu/food-menu-bg-img-1-1.png" data-overlay="white" data-opacity="8" id="menu"
         style="background-image: url(&quot;assets/img/food-menu/food-menu-bg-img-1-1.png&quot;);">
     <span class="shape1 position-absolute ani-moving"><i class="flaticon-berries icon-6x" data-opacity="1"></i></span>
@@ -409,7 +259,7 @@ Food Box Area
 <!--==============================
 About Area
 ==============================-->
-<section class="vs-about-wrapper vs-about-layout7 position-relative pb-lg-130 pb-60 pt-5">
+<section class="vs-about-wrapper vs-about-layout7 position-relative pb-lg-130 pb-60 pt-5" id="about">
     <div class="vs-container">
         <div class="row">
             <div class="col-lg-8">
@@ -486,15 +336,15 @@ About Area
     </div>
 </section>
 <!--==============================
-  Promotional Banner Area
+    Promotional Banner Area
 ==============================-->
-<div class="vs-promotional-banner2 pt-lg-115 pt-60 pb-lg-120 pb-60">
+<div class="vs-promotional-banner2 pt-lg-115 pt-60 pb-lg-120 pb-60" id="app">
     <div class="vs-container">
         <div class="banner-box">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-8 col-sm-12">
                     <div class="banner-content">
-                        <h2 class="banner-title">Download Our App & <span>Order Online</span> To Get Free Delivery</h2>
+                        <h2 class="banner-title">Download Our App &amp; <span>Order Online</span> To Get Free Delivery</h2>
                         <p class="banner-text">we'll bring food and groceries in a flash</p>
                         <div class="vs-btn-group">
                             <a class="vs-btn" href="#">
@@ -508,7 +358,7 @@ About Area
                 </div>
                 <div class="col-lg-6">
                     <div class="banner-img">
-                        <img src="{{ asset('assets/img/banner/banner-img-1.png') }}" alt="banner-img">
+                        <img src="assets/img/banner/banner-img-1.png" alt="banner-img">
                     </div>
                 </div>
             </div>
@@ -519,12 +369,10 @@ About Area
     </div>
 </div>
 <!--==============================
-  Promotional Banner
+    Promotional Banner
 ==============================-->
-<img src="assets/img/food-menu/bg-shape-1-1.png" alt="Bg Shape Image" class="ani-moving-y position-absolute shape2"
-     style="right: 40px; z-index: 1000">
-<div class="vs-promotional-banner position-relative pb-lg-130 pb-60">
-    <div class="vs-container background-image position-relative" data-vs-img="assets/img/bg/banner-bg1.png">
+<div class="vs-promotional-banner position-relative pb-lg-130 pb-60" id="blog">
+    <div class="vs-container background-image position-relative" data-vs-img="assets/img/bg/banner-bg1.png" style="background-image: url(&quot;assets/img/bg/banner-bg1.png&quot;);">
         <div class="row align-items-center">
             <div class="col-lg-4">
                 <div class="banner-images">
@@ -591,69 +439,114 @@ About Area
     </div>
 </div>
 <!--==============================
-  Footer Area
+        Footer Area
 ==============================-->
-<footer class="footer-wrapper footer-layout3 background-image" data-vs-img="assets/img/footer/footer-bg-3-1.jpg">
-    <div class="footer-widget-wrapper footer-widget-layout3  pt-40 pt-lg-120 pb-10 pb-lg-100">
-        <div class="vs-container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
+<footer class="footer-wrapper footer-layout1 dark-footer bg-black">
+    <div class="footer-widget-wrapper footer-widget-layout1 pt-40 pt-lg-100 pb-10 pb-lg-60  background-image" data-vs-img="assets/img/bg/bg-3.jpg">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-xl-4">
                     <div class="widget pt-0">
+                        <h3 class="widget_title text-20">About Us</h3>
                         <div class="vs-widget-about">
-                            <a href="index.html" class="d-inline-block mb-25"><img src="assets/img/logo-white.png"
-                                                                                   alt="Logo"></a>
-                            <p class="contact-info contact-number mb-10"><a href="tel:+65965252561">+659 6525 2561</a>
-                            </p>
-                            <p class="contact-info mb-0">119 Tanglewood Lane Gulfport, MS 39503</p>
+                            <p class="widget-about-text mb-30 lh-32 pr-xl-5">Energistically repurpose client-based odels rather than magnetic sources. Intrinsicly
+                                bcks-and-mortar ideas before.</p>
+                            <div class="social-links links-has-border">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="widget">
-                        <h3 class="widget_title">Information</h3>
-                        <p class="widget-about-text mb-30">Energistically repurpose client-based odels rather than
-                            magnetic sources. Intrinsicly
-                            bcks-and-mortar ideas before.</p>
-                        <div class="social-links links-has-border">
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="widget widget_nav_menu   ">
+                        <h3 class="widget_title text-20">Food Menu</h3>
+                        <div class="menu-all-pages-container">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6">
+                                    <ul class="menu">
+                                        <li><a href="menu.html">White Castle</a></li>
+                                        <li><a href="menu.html">Beef Sandwich</a></li>
+                                        <li><a href="menu.html">Cherry Limea</a></li>
+                                        <li><a href="menu.html">Wendy's Frosty</a></li>
+                                        <li><a href="menu.html">Pumpkin Spice</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6 col-md-6">
+                                    <ul class="menu">
+                                        <li><a href="menu.html">Burrito Sreme</a></li>
+                                        <li><a href="menu.html">Sandwich</a></li>
+                                        <li><a href="menu.html">Donuts Coffee</a></li>
+                                        <li><a href="menu.html">Krispy Kreme</a></li>
+                                        <li><a href="menu.html">Nacho Fries</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="widget widget_newsletter   ">
-                        <h4 class="widget_title">Newsletter</h4>
-                        <form class="newsletter-form">
-                            <span class="form-icon"><i class="fal fa-envelope text-theme"></i></span>
-                            <input class="form-control mb-20 radius-50" type="email"
-                                   placeholder="Enter your email address..." required="">
-                            <button type="submit" class="vs-btn style1 text-uppercase">Subscribe</button>
-                        </form>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+
+                    <div class="widget  ">
+                        <h3 class="widget_title text-20">Latest Posts</h3>
+                        <div class="vs-widget-recent-post pt-2">
+                            <div class="recent-post media align-items-center">
+                                <div class="media-img">
+                                    <img src="assets/img/widget/post-thumb-2-1.jpg" alt="Recent Post Image">
+                                </div>
+                                <div class="media-body pl-20">
+                                    <h4 class="recent-post-title h6 "><a href="blog.html">Assertively visualize best-of-breed customers.</a></h4>
+                                    <a class="text-theme" href="blog.html"><i class="fal fa-calendar-alt text-theme"></i>05 June, 2022.</a>
+                                </div>
+                            </div>
+                            <div class="recent-post media align-items-center">
+                                <div class="media-img">
+                                    <img src="assets/img/widget/post-thumb-2-2.jpg" alt="Recent Post Image">
+                                </div>
+                                <div class="media-body pl-20">
+                                    <h4 class="recent-post-title h6"><a href="blog.html">Wonderful Natural Feeling Lorem ipsum</a></h4>
+                                    <a class="text-theme" href="blog.html"><i class="fal fa-calendar-alt text-theme"></i>28 June, 2022.</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-copyright top-light-border text-center py-4 link-inherit">
+    <div class="footer-copyright py-4">
         <div class="container">
-            <p class="text-white mb-0">Copyright <i class="fal fa-copyright"></i> 2023 <a href="index.html">Grillino</a>
-                - All rights reserved by <a href="https://themeforest.net/user/vecuro_themes">Vecuro</a>.</p>
+            <div class="row align-items-center">
+                <div class="col-xl-5 text-center text-xl-left">
+                    <p class="mb-0">Copyright <i class="fal fa-copyright"></i> 2022 <a href="index.html" class="text-bold text-white">Grillino</a> - All rights reserved by <a href="https://themeforest.net/user/vecuro_themes" class="text-bold text-white">Vecuro</a>.</p>
+                </div>
+                <div class="col-xl-2 text-center d-none d-xl-block">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="assets/img/logo-white.png" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="col-xl-5 text-right d-none d-xl-block">
+                    <ul class="footer-bottom-menu list-style-none">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
-<!--********************************
-                Code End  Here
-******************************** -->
 <!--==============================
-    Sidemenu
+Sidemenu
 ============================== -->
-<div class="sidemenu-wrapper d-none d-lg-block">
+<div class="sidemenu-wrapper d-none d-lg-block  ">
     <div class="sidemenu-content">
-        <button class="closeButton border-theme text-theme bg-theme-hover sideMenuCls"><i class="far fa-times"></i>
-        </button>
+        <button class="closeButton border-theme text-theme bg-theme-hover sideMenuCls"><i class="far fa-times"></i></button>
         <div class="widget woocommerce widget_shopping_cart">
             <h3 class="widget_title">Shopping cart</h3>
             <div class="widget_shopping_cart_content">
@@ -713,9 +606,6 @@ About Area
         </div>
     </div>
 </div>
-<!-- Scroll Top Top Button -->
-<a href="#" class="scrollToTop icon-btn bg-theme border-before-theme"><i class="far fa-angle-up"></i></a>
-
 <!-- Модальное окно -->
 <div class="modal fade bd-example-modal" id="exampleModalCenter" tabindex="-1" role="dialog"
      aria-labelledby="myModalLabel"
@@ -734,46 +624,56 @@ About Area
                     <nav>
                         <div class="nav nav-tabs justify-content-center food-menu-style3" id="nav-tab" role="tablist"></div>
                     </nav>
-                <div class="tab-content d-flex justify-content-center" id="nav-tabContent"></div>
+                    <div class="tab-content d-flex justify-content-center" id="nav-tabContent"></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!--********************************
+        Code End  Here
+******************************** -->
+
+<!-- Scroll Top Top Button -->
+<a href="#" class="scrollToTop icon-btn bg-theme border-before-theme"><i class="far fa-angle-up"></i></a>
+
+
+
+
 <!--==============================
     All Js File
 ============================== -->
 <!-- Jquery -->
-<script src="{{ asset('assets/js/vendor/jquery.min.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/jquery-migrate-3.0.0.min.js') }}"></script>
+<script src="assets/js/vendor/jquery.min.js"></script>
+<script src="assets/js/vendor/jquery-migrate-3.0.0.min.js"></script>
 <!-- Slick Slider -->
 <!-- <script src="assets/js/app.min.js"></script> -->
-<script src="{{ asset('assets/js/slick.min.js') }}"></script>
+<script src="assets/js/slick.min.js"></script>
 <!-- Bootstrap -->
-<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 <!-- Layer Slider -->
-<script src="{{ asset('assets/js/greensock.min.js') }}"></script>
-<script src="{{ asset('assets/js/layerslider.kreaturamedia.jquery.js') }}"></script>
-<script src="{{ asset('assets/js/layerslider.transitions.js') }}"></script>
+<script src="assets/js/greensock.min.js"></script>
+<script src="assets/js/layerslider.kreaturamedia.jquery.js"></script>
+<script src="assets/js/layerslider.transitions.js"></script>
 <!-- Counter js -->
-<script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
-<script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
 <!-- Date Picker -->
-<script src="{{ asset('assets/js/jquery.datetimepicker.min.js') }}"></script>
+<script src="assets/js/jquery.datetimepicker.min.js"></script>
 <!-- Magnific Popup -->
-<script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
 <!-- Nice Select -->
-<script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
 <!-- Custom Carousel -->
-<script src="{{ asset('assets/js/vscustom-carousel.min.js') }}"></script>
+<script src="assets/js/vscustom-carousel.min.js"></script>
 <!-- Mobile Menu -->
-<script src="{{ asset('assets/js/vsmenu.min.js') }}"></script>
+<script src="assets/js/vsmenu.min.js"></script>
 <!-- Form Js -->
-<script src="{{ asset('assets/js/ajax-mail.js') }}"></script>
+<script src="assets/js/ajax-mail.js"></script>
 <!-- Google Map js -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ "></script>
 <!-- Main Js File -->
-<script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="assets/js/main.js"></script>
 
 {{--Отображение меню с разбивкой блюд по категориям--}}
 <script>
