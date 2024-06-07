@@ -717,25 +717,25 @@ About Area
 <a href="#" class="scrollToTop icon-btn bg-theme border-before-theme"><i class="far fa-angle-up"></i></a>
 
 <!-- Модальное окно -->
-<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog"
-     aria-labelledby="myLargeModalLabel"
+<div class="modal fade bd-example-modal" id="exampleModalCenter" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel"
      aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-dialog modal modal-dialog-centered" role="document">
         <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header border-0">
                 <h3 class="modal-title" id="exampleModalLongTitle">Варианты товара:</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body row d-flex justify-content-around" id="modal-body">
-                <div class="d-flex flex-column m-2" style="width: 340px">
+                <h5 id="compound"></h5>
+                <div>
                     <nav>
-                        <div class="nav nav-tabs" id="nav-tab" role="tablist"></div>
+                        <div class="nav nav-tabs justify-content-center food-menu-style3" id="nav-tab" role="tablist"></div>
                     </nav>
-                    <h5 id="compound"></h5>
+                <div class="tab-content d-flex justify-content-center" id="nav-tabContent"></div>
                 </div>
-                <div class="tab-content" id="nav-tabContent"></div>
             </div>
         </div>
     </div>
@@ -860,8 +860,8 @@ About Area
 
                     // Добавление вариантов блюда
                     $.each(variants, function (index, value) {
-                        let nav_item_class = index === 0 ? 'nav-item nav-link active small' : 'nav-item nav-link small';
-                        let tab_pane_class = index === 0 ? 'tab-pane fade show active' : 'tab-pane fade';
+                        let nav_item_class = index === 0 ? 'nav-item nav-link active small border-0' : 'nav-item nav-link small border-0';
+                        let tab_pane_class = index === 0 ? 'tab-pane fade show active mt-4' : 'tab-pane fade mt-4';
 
                         let nav_variant = `
                             <a class="${nav_item_class}" id="nav-${value.id}-tab" data-toggle="tab" data-name="${value.id}" href="#nav-${value.id}"
@@ -870,9 +870,9 @@ About Area
 
                         let tab_variant = `
                             <div class="${tab_pane_class}" id="nav-${value.id}" role="tabpanel" aria-labelledby="nav-${value.id}-tab">
-                                <img style="width: 350px" class="m-2" src="${value.picture}" alt="pizza-size">
+                                <img style="width: 300px" class="m-2" src="${value.picture}" alt="pizza-size">
                                 <p></p>
-                                <button type="button" class="vs-btn mask-style1" style="left: 115px" id="to-basket-button">В корзину за ${value.price} ₽</button>
+                                <button type="button" class="vs-btn mask-style1 ml-2" style="width: 300px" id="to-basket-button">В корзину за ${value.price} ₽</button>
                             </div>
                         `;
 
@@ -881,8 +881,8 @@ About Area
                     });
 
                     // Обновление заголовка модального окна и описания
-                    $('#exampleModalLongTitle').html(`<h3 class="modal-title">${item.name}</h3>`);
-                    $('#compound').html(`<h5 class="food-text text-xs m-3">${item.description}</h5>`);
+                    $('#exampleModalLongTitle').html(`<h5 class="modal-title mt-2 ml-2">${item.name}</h5>`);
+                    $('#compound').html(`<h5 class="ml-4 mr-4 small">${item.description}</h5>`);
                 },
                 error: function (xhr, status, error) {
                     // Обработчик ошибок
