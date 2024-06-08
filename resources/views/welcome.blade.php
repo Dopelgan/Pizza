@@ -322,8 +322,12 @@ About Area
         <div class="row">
             <div class="col-xl-3 col-lg-6">
                 <p class="about-text mb-xl-30">
-                    Добро пожаловать в Gastro Pizza Sochy — новое место в центре Сочи, где вы можете насладиться вкусной пиццей, сочными бургерами, хрустящей картошкой фри и нежными наггетсами. Мы также предлагаем доставку через Яндекс.Еду, чтобы вы могли наслаждаться нашими блюдами где угодно.
-                    Заходите к нам, чтобы провести время в приятной атмосфере с друзьями и семьёй, или заказывайте доставку и наслаждайтесь нашей едой дома или в офисе. Мы всегда рады новым гостям и постоянным клиентам!
+                    Добро пожаловать в Gastro Pizza Sochy — новое место в центре Сочи, где вы можете насладиться вкусной
+                    пиццей, сочными бургерами, хрустящей картошкой фри и нежными наггетсами. Мы также предлагаем
+                    доставку через Яндекс.Еду, чтобы вы могли наслаждаться нашими блюдами где угодно.
+                    Заходите к нам, чтобы провести время в приятной атмосфере с друзьями и семьёй, или заказывайте
+                    доставку и наслаждайтесь нашей едой дома или в офисе. Мы всегда рады новым гостям и постоянным
+                    клиентам!
                 </p>
                 <p class="about-text mb-xl-45">
                     Gastro Pizza Sochy — вкусные моменты каждый день!
@@ -339,7 +343,8 @@ About Area
                         </div>
                         <div class="media-body">
                             <h3 class="food-title">Быстрая еда</h3>
-                            <p class="mb-0">Вкусные пиццы, бургеры, картошка фри и наггетсы готовятся быстро для вашего удобства.</p>
+                            <p class="mb-0">Вкусные пиццы, бургеры, картошка фри и наггетсы готовятся быстро для вашего
+                                удобства.</p>
                         </div>
                     </div>
                     <div class="media align-items-center mb-40">
@@ -361,7 +366,8 @@ About Area
                         </div>
                         <div class="media-body">
                             <h3 class="food-title">Онлайн Заказы</h3>
-                            <p class="mb-0">Заказывайте легко через Яндекс.Еду и наслаждайтесь нашими блюдами где угодно.</p>
+                            <p class="mb-0">Заказывайте легко через Яндекс.Еду и наслаждайтесь нашими блюдами где
+                                угодно.</p>
                         </div>
                     </div>
                 </div>
@@ -387,7 +393,8 @@ About Area
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-8 col-sm-12">
                     <div class="banner-content">
-                        <h2 class="banner-title">Скачайте наше приложение &amp; <span>Заказывайте онлайн</span> с доставкой
+                        <h2 class="banner-title">Скачайте наше приложение &amp; <span>Заказывайте онлайн</span> с
+                            доставкой
                         </h2>
                         <p class="banner-text">мы мигом будем у вас!</p>
                         <div class="vs-btn-group">
@@ -495,7 +502,8 @@ About Area
                     <div class="widget pt-0">
                         <h3 class="widget_title text-20">О нас</h3>
                         <div class="vs-widget-about">
-                            <p class="widget-about-text mb-30 lh-32 pr-xl-5">Gastro Pizza Sochy — вкусные моменты каждый день!</p>
+                            <p class="widget-about-text mb-30 lh-32 pr-xl-5">Gastro Pizza Sochy — вкусные моменты каждый
+                                день!</p>
                             <div class="social-links links-has-border">
                                 <ul>
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -509,8 +517,9 @@ About Area
                     </div>
                 </div>
                 <div class="d-flex flex-column">
-                        <h3 class="widget_title text-20">Наши контакты</h3>
-                    <p class="widget-about-text">Адрес: Краснодарский край, Сочи, микрорайон Бытха, улица Бытха, 41/30</p>
+                    <h3 class="widget_title text-20">Наши контакты</h3>
+                    <p class="widget-about-text">Адрес: Краснодарский край, Сочи, микрорайон Бытха, улица Бытха,
+                        41/30</p>
                     <p class="widget-about-text">Телефон: +869 526 212</p>
                 </div>
             </div>
@@ -549,59 +558,26 @@ Sidemenu
         <button class="closeButton border-theme text-theme bg-theme-hover sideMenuCls"><i class="far fa-times"></i>
         </button>
         <div class="widget woocommerce widget_shopping_cart">
-            <h3 class="widget_title">Shopping cart</h3>
+            <h3 class="widget_title">Корзина</h3>
             <div class="widget_shopping_cart_content">
-                <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                    <li class="woocommerce-mini-cart-item mini_cart_item">
-                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                        <a href="#"><img src="assets/img/cart/cart-img-1-1.jpg" alt="Cart Image">Hot Burger</a>
-                        <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>40.00</span>
-                            </span>
-                    </li>
-                    <li class="woocommerce-mini-cart-item mini_cart_item">
-                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                        <a href="#"><img src="assets/img/cart/cart-img-1-2.jpg" alt="Cart Image">Vegetable</a>
-                        <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>99.00</span>
-                            </span>
-                    </li>
-
-                    <li class="woocommerce-mini-cart-item mini_cart_item">
-                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                        <a href="#"><img src="assets/img/cart/cart-img-1-3.jpg" alt="Cart Image">Pop Pizza</a>
-                        <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>56.00</span>
-                            </span>
-                    </li>
-                    <li class="woocommerce-mini-cart-item mini_cart_item">
-                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                        <a href="#"><img src="assets/img/cart/cart-img-1-4.jpg" alt="Cart Image">Onion & Tomato</a>
-                        <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>23.00</span>
-                            </span>
-                    </li>
-                    <li class="woocommerce-mini-cart-item mini_cart_item">
-                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                        <a href="#"><img src="assets/img/cart/cart-img-1-5.jpg" alt="Cart Image">Cool Drinks</a>
-                        <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>100.00</span>
-                            </span>
-                    </li>
+                <ul class="woocommerce-mini-cart cart_list product_list_widget" id="product_list_widget">
+                    {{--                    <li class="woocommerce-mini-cart-item mini_cart_item">--}}
+                    {{--                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a href="#">--}}
+                    {{--                        <a href="#"><img src="assets/img/cart/cart-img-1-1.jpg" alt="Cart Image">Hot Burger</a>--}}
+                    {{--                        <span class="quantity">1 ×--}}
+                    {{--                                <span class="woocommerce-Price-amount amount">--}}
+                    {{--                                    <span class="woocommerce-Price-currencySymbol">$</span>40.00</span>--}}
+                    {{--                            </span>--}}
+                    {{--                    </li>--}}
                 </ul>
-                <p class="woocommerce-mini-cart__total total">
-                    <strong>Subtotal:</strong>
-                    <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">$</span>318.00</span>
+                <p class="woocommerce-mini-cart__total total" id="total">
+                    {{--                    <strong>Subtotal:</strong>--}}
+                    {{--                    <span class="woocommerce-Price-amount amount">--}}
+                    {{--                            <span class="woocommerce-Price-currencySymbol">$</span>318.00</span>--}}
                 </p>
                 <p class="woocommerce-mini-cart__buttons buttons">
-                    <a href="cart.html" class="vs-btn style1 wc-forward">View cart</a>
-                    <a href="checkout.html" class="vs-btn style1 checkout wc-forward">Checkout</a>
+                    <button class="vs-btn style1 wc-forward">Очистить</button>
+                    <button class="vs-btn style1 checkout wc-forward">Оплатить</button>
                 </p>
             </div>
         </div>
@@ -793,7 +769,7 @@ Sidemenu
         });
     });
 </script>
-
+{{--Отображение корзины--}}
 <script>
     $(document).ready(function () {
         $(document).on('click', '.getBasket', function () {
@@ -802,8 +778,37 @@ Sidemenu
                 type: 'POST',
                 url: `api/clients/basket/get`,
                 success: function (response) {
-                    alert('Корзина получена');
-                    console.log(response);
+                    let total = 0
+
+                    // Очистка старых данных перед добавлением новых
+                    $('#product_list_widget').empty();
+                    $('#total').empty();
+                    // Добавление вариантов блюд
+                    $.each(response.response, function (key, value) {
+                        let html = `
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <button type="button" class="close remove-from-basket" data-name="${value.item_variant.id}">
+                                &times;
+                            </button>
+                            <a><img src="${value.item.picture}" alt="Cart Image">${value.item.name} ${value.item_variant.name}</a>
+                            <span class="quantity">${value.quantity} ×
+                            <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">₽</span>${value.item_variant.price}</span>
+                            </span>
+                        </li>
+                        `
+                        total = total + value.item_variant.price
+
+                        $('#product_list_widget').append(html);
+                    })
+
+                    let totalHtml = `
+                    <strong>Итого:</strong>
+                    <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">₽</span>${total}</span>
+                    `
+
+                    $('#total').append(totalHtml);
                 },
                 error: function (xhr, status, error) {
                     console.error('Ошибка при выполнении запроса:', status, error);
@@ -816,12 +821,12 @@ Sidemenu
 <script>
     $(document).ready(function () {
         $(document).on('click', '.add-to-basket', function () {
-            let itemVariant = $(this).data('name');
+            let itemVariantId = $(this).data('name');
             let quantity = 1; // Количество товара, можно сделать динамическим
             // console.log(itemVariant);
             $.ajax({
                 type: 'POST',
-                url: `api/clients/basket/add/${itemVariant}`,
+                url: `api/clients/basket/add/${itemVariantId}`,
                 data: {
                     quantity: quantity
                 },
@@ -840,7 +845,30 @@ Sidemenu
         });
     });
 </script>
-
+{{--Удаление товара из корзины--}}
+<script>
+    $(document).ready(function () {
+        $(document).on('click', '.pizda', function () {
+            let itemVariantId = $(this).data('name');
+            console.log(itemVariantId)
+            $.ajax({
+                type: 'POST',
+                url: `api/clients/basket/remove/${itemVariantId}`,
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
+                success: function (response) {
+                    alert('Товар удален из корзины');
+                    console.log(response);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Ошибка при удалении товара из корзины:', status, error);
+                    alert('Произошла ошибка при удалении товара из корзины. Пожалуйста, попробуйте позже.');
+                }
+            });
+        });
+    });
+</script>
 </body>
 
 </html>
