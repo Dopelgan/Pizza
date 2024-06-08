@@ -797,7 +797,7 @@ Sidemenu
                             <a><img src="${value.item.picture}" alt="Cart Image">${value.item.name} ${value.item_variant.name}</a>
                             <span class="quantity">${value.quantity} ×
                             <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">₽</span>${value.item_variant.price}</span>
+                            <span class="woocommerce-Price-currencySymbol">${value.item_variant.price}</span>₽</span>
                             </span>
                         </li>
                         `
@@ -809,7 +809,7 @@ Sidemenu
                     let totalHtml = `
                     <strong>Итого:</strong>
                     <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">₽</span>${total}</span>
+                            <span class="woocommerce-Price-currencySymbol">${total}</span>₽</span>
                     `
 
                     $('#total').append(totalHtml);
