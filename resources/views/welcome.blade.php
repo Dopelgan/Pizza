@@ -2,12 +2,13 @@
 <html class="no-js" lang="en">
 
 <head>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Grillino - Food Restaurant Cafe Grill & Bistro HTML Template - Home Five - One Page</title>
+    <title>Gastro Pizza Sochy</title>
     <meta name="author" content="Vecuro">
     <meta name="description" content="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template">
-    <meta name="keywords" content="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template" />
+    <meta name="keywords" content="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template"/>
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -17,7 +18,8 @@
 	   Google Web Fonts
 	============================== -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@300;400;500;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@300;400;500;700&family=Rufina:wght@400;700&display=swap"
+          rel="stylesheet">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
@@ -70,9 +72,9 @@
 
 
 <!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
 <![endif]-->
-
 
 
 <!--********************************
@@ -80,13 +82,11 @@
 ******************************** -->
 
 
-
-
 <!--==============================
  Preloader
 ==============================-->
 <div class="preloader  ">
-    <button class="vs-btn mask-style1 preloaderCls">Cancel Preloader </button>
+    <button class="vs-btn mask-style1 preloaderCls">Cancel Preloader</button>
     <div class="preloader-inner">
         <div class="loader-logo">
             <img src="assets/img/logo-white.png" alt="Loader Image">
@@ -120,14 +120,15 @@ Sticky Header
             <div class="col-7 col-md-9 text-right">
                 <nav class="main-menu menu-sticky1 onepage-nav d-none d-lg-block link-inherit mobile-menu-active">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#app">App</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#">Домой</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#menu">Меню</a></li>
+                        <li><a href="#app">Приложение</a></li>
+                        <li><a href="#blog">Блог</a></li>
                     </ul>
                 </nav>
-                <button class="vs-menu-toggle text-theme border-theme d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                <button class="vs-menu-toggle text-theme border-theme d-inline-block d-lg-none"><i
+                            class="far fa-bars"></i></button>
             </div>
         </div>
     </div>
@@ -159,14 +160,15 @@ Mobile Menu
             <div class="col-6 col-md-9 col-lg-7 col-xl-5 position-static">
                 <nav class="main-menu menu-style4 link-inherit text-right text-xl-left mobile-menu-active onepage-nav">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#app">App</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#">Домой</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#menu">Меню</a></li>
+                        <li><a href="#app">Приложение</a></li>
+                        <li><a href="#blog">Блог</a></li>
                     </ul>
                 </nav>
-                <button type="button" class="vs-menu-toggle ml-auto d-block text-theme border-theme d-lg-none"><i class="far fa-bars"></i></button>
+                <button type="button" class="vs-menu-toggle ml-auto d-block text-theme border-theme d-lg-none"><i
+                            class="far fa-bars"></i></button>
             </div>
             <div class="col-lg-3 col-xl-5">
                 <div class="header-right d-none d-lg-flex align-items-center justify-content-end">
@@ -175,13 +177,15 @@ Mobile Menu
                             <i class="fal fa-clock text-white fa-2x"></i>
                         </div>
                         <div class="media-body">
-                            <span class="text-white-light">Call for Order</span>
-                            <p class="mb-0 h4 text-font1 text-white"><a href="tel:+869526212"><strong>+869 526 212</strong></a></p>
+                            <span class="text-white-light">Заказ по телефону</span>
+                            <p class="mb-0 h4 text-font1 text-white"><a href="tel:+869526212"><strong>+869 526
+                                        212</strong></a></p>
                         </div>
                     </div>
                     <div class="header-btn pl-lg-50">
                         <a href="#" class="icon-btn text-red mr-15 searchBoxTggler"><i class="fal fa-search"></i></a>
-                        <a href="#" class="icon-btn text-red sideMenuToggler cart-btn"><span class="number bg-theme">9</span><i class="fal fa-shopping-cart"></i></a>
+                        <a href="#" class="icon-btn text-red sideMenuToggler cart-btn getBasket"><span
+                                    class="number bg-theme">9</span><i class="fal fa-shopping-cart"></i></a>
                     </div>
                 </div>
             </div>
@@ -192,36 +196,83 @@ Mobile Menu
     Hero Area
 ==============================-->
 <section class="vs-hero-wrapper vs-hero-layout5  ">
-    <div class="vs-hero-carousel  navprevnext-white navbuttons-white" data-height="860px" data-slidertype="fullwidth" data-container="1280" data-navprevnext="true">
-        <div class="hero-shape1 ani-moving-x d-none d-xl-block"><img src="assets/img/hero/chille.png" alt="Chille"></div>
+    <div class="vs-hero-carousel  navprevnext-white navbuttons-white" data-height="860px" data-slidertype="fullwidth"
+         data-container="1280" data-navprevnext="true">
+        <div class="hero-shape1 ani-moving-x d-none d-xl-block"><img src="assets/img/hero/chille.png" alt="Chille">
+        </div>
         <div class="vs-hero-slide ls-slide" data-ls="duration: 70000; transition2d: 5;">
             <img src="assets/img/hero/hero-img-5-bg-1.png" alt="Slide Image" class="ls-bg">
-            <img src="assets/img/hero/hero-img-5-1.png" alt="Hero Image" class="ls-l" style="left: 670px; top: 220px;" data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
-            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;" data-ls-desktop="top: 317px; font-size: 48px;" style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;" data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Good Food Good Mood</p>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;" data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px;  color: #fff; " data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Super Delicious</h1>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;" data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px;  color: #fff; " data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Foods</h1>
-            <div class="hero-btn ls-l ls-responsive" data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;" data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;" data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;" style="left: 60px;  overflow: hidden; border-radius: 50px;  " data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
-                <a href="reservation.html" class="vs-btn mask-style3"><i class="fal fa-calendar-alt mr-2"></i> Book A Table</a>
+            <img src="assets/img/hero/hero-img-5-1.png" alt="Hero Image" class="ls-l" style="left: 670px; top: 220px;"
+                 data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
+            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
+               data-ls-desktop="top: 317px; font-size: 48px;"
+               style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;"
+               data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
+                Вкусная еда</p>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
+                data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px;  color: #fff; "
+                data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
+                Для Хорошего</h1>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;"
+                data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px;  color: #fff; "
+                data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
+                Настроения</h1>
+            <div class="hero-btn ls-l ls-responsive"
+                 data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;"
+                 data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;"
+                 data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;"
+                 style="left: 60px;  overflow: hidden; border-radius: 50px;  "
+                 data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
             </div>
         </div>
         <div class="vs-hero-slide ls-slide" data-ls="duration: 7000; transition2d: 5;">
             <img src="assets/img/hero/hero-img-5-bg-1.png" alt="Slide Image" class="ls-bg">
-            <img src="assets/img/hero/hero-img-5-2.png" alt="Hero Image" class="ls-l" style="left: 620px; top: 250px;" data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
-            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;" data-ls-desktop="top: 317px; font-size: 48px;" style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;" data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Good Food Good Mood</p>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;" data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;" data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Natural Healthy</h1>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;" data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;" data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Foods</h1>
-            <div class="hero-btn ls-l  ls-responsive" data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;" data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;" data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;" style="left: 60px;  overflow: hidden; border-radius: 50px;  " data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
-                <a href="reservation.html" class="vs-btn mask-style3"><i class="fal fa-calendar-alt mr-2"></i> Book A Table</a>
+            <img src="assets/img/hero/hero-img-5-2.png" alt="Hero Image" class="ls-l" style="left: 620px; top: 250px;"
+                 data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
+            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
+               data-ls-desktop="top: 317px; font-size: 48px;"
+               style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;"
+               data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
+                Вкусная еда</p>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
+                data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;"
+                data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
+                Из натуральных</h1>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;"
+                data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;"
+                data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
+                Продуктов</h1>
+            <div class="hero-btn ls-l  ls-responsive"
+                 data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;"
+                 data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;"
+                 data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;"
+                 style="left: 60px;  overflow: hidden; border-radius: 50px;  "
+                 data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
             </div>
         </div>
         <div class="vs-hero-slide ls-slide" data-ls="duration: 7000; transition2d: 5;">
             <img src="assets/img/hero/hero-img-5-bg-1.png" alt="Slide Image" class="ls-bg">
-            <img src="assets/img/hero/hero-img-5-3.png" alt="Hero Image" class="ls-l" style="left: 640px; top: 220px;" data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
-            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;" data-ls-desktop="top: 317px; font-size: 48px;" style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;" data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Good Food Good Mood</p>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;" data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;" data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Fresh & Grilled</h1>
-            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;" data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;" data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">Foods</h1>
-            <div class="hero-btn ls-l  ls-responsive" data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;" data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;" data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;" style="left: 60px;  overflow: hidden; border-radius: 50px;  " data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
-                <a href="reservation.html" class="vs-btn mask-style3"><i class="fal fa-calendar-alt mr-2"></i> Book A Table</a>
+            <img src="assets/img/hero/hero-img-5-3.png" alt="Hero Image" class="ls-l" style="left: 640px; top: 220px;"
+                 data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
+            <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
+               data-ls-desktop="top: 317px; font-size: 48px;"
+               style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;"
+               data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
+                Вкусная еда</p>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
+                data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;"
+                data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
+                Прямо</h1>
+            <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;"
+                data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;"
+                data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
+                с Гриля</h1>
+            <div class="hero-btn ls-l  ls-responsive"
+                 data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;"
+                 data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;"
+                 data-ls-desktop="top: 582px; width: 206px; height: 60px; line-height: 60px; font-size: 14px;"
+                 style="left: 60px;  overflow: hidden; border-radius: 50px;  "
+                 data-ls="delayin: 1100; showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:0.9; scaleyin:0.9; scalexout:1.1; scaleyout: 1.1; fadein:true; fadeout: true; transformoriginin:50% 143.8% 0;">
             </div>
         </div>
     </div>
@@ -230,7 +281,7 @@ Mobile Menu
 Food Box Area
 ==============================-->
 <section
-        class="vs-food-box-wrapper position-relative food-box-layout1 link-inherit background-image pt-lg-80 pb-lg-120 pb-30"
+        class="vs-food-box-wrapper position-relative food-box-layout1 link-inherit background-image pt-lg-150 pb-lg-120 pb-30"
         data-vs-img="assets/img/food-menu/food-menu-bg-img-1-1.png" data-overlay="white" data-opacity="8" id="menu"
         style="background-image: url(&quot;assets/img/food-menu/food-menu-bg-img-1-1.png&quot;);">
     <span class="shape1 position-absolute ani-moving"><i class="flaticon-berries icon-6x" data-opacity="1"></i></span>
@@ -238,10 +289,9 @@ Food Box Area
         <div class="row justify-content-center">
             <div class="col-md-11 col-lg-9 col-xl-7">
                 <div class="section-title text-center ">
-                    <span class="sec-subtitle text-theme h3">Corporate Applications</span>
-                    <h2 class="sec-title1">Our Food Menu</h2>
-                    <p class="sec-text text-md">Assertively myocardinate robust e-tailers for extensible human capital.
-                        dpropriately benchmark <a href="#" class="text-theme">turnkey</a> networks.</p>
+                    <span class="sec-subtitle text-theme h3 mt-3">Кто попробует, тот полюбит!</span>
+                    <h2 class="sec-title1">Наше Меню</h2>
+                    <p class="sec-text text-md">Спонсор хорошего настроения!</p>
                     <div class="sec-line">
                         <img src="assets/img/shape/sec-title-1.png" alt="Section Shape Icon">
                     </div>
@@ -264,24 +314,20 @@ About Area
         <div class="row">
             <div class="col-lg-8">
                 <div class="section-title text-start">
-                    <span class="sec-subtitle text-theme h3">About Company</span>
-                    <h2 class="sec-title1">Where Quality Food Meet Excellent Service.</h2>
+                    <span class="sec-subtitle text-theme h3">О нас</span>
+                    <h2 class="sec-title1">ТАМ, ГДЕ КАЧЕСТВЕННАЯ ЕДА СОЧЕТАЕТСЯ С ОТЛИЧНЫМ ОБСЛУЖИВАНИЕМ.</h2>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-xl-3 col-lg-6">
                 <p class="about-text mb-xl-30">
-                    Enthusiastically syndicate high-quality initiatives vis-a-vis functional
-                    internal or "organic" sources. Intrinsicly formulate intuitive benefits through
-                    client-based content. Assertively embrace intuitive quality vectors rather than
-                    holistic process improvements.
+                    Добро пожаловать в Gastro Pizza Sochy — новое место в центре Сочи, где вы можете насладиться вкусной пиццей, сочными бургерами, хрустящей картошкой фри и нежными наггетсами. Мы также предлагаем доставку через Яндекс.Еду, чтобы вы могли наслаждаться нашими блюдами где угодно.
+                    Заходите к нам, чтобы провести время в приятной атмосфере с друзьями и семьёй, или заказывайте доставку и наслаждайтесь нашей едой дома или в офисе. Мы всегда рады новым гостям и постоянным клиентам!
                 </p>
                 <p class="about-text mb-xl-45">
-                    Assertively embrace intuitive quality vectors rather
-                    than holistic process improvements.
+                    Gastro Pizza Sochy — вкусные моменты каждый день!
                 </p>
-                <a href="about.html" class="vs-btn mask-style1">More Information</a>
             </div>
             <div class="col-xl-4 col-lg-6">
                 <div class="features-area pl-lg-20 pl-xl-40">
@@ -292,9 +338,8 @@ About Area
                                 </span>
                         </div>
                         <div class="media-body">
-                            <h3 class="food-title">Fast Foods</h3>
-                            <p class="mb-0">It's the perfect dining experience where every dish is crafted with
-                                fresh.</p>
+                            <h3 class="food-title">Быстрая еда</h3>
+                            <p class="mb-0">Вкусные пиццы, бургеры, картошка фри и наггетсы готовятся быстро для вашего удобства.</p>
                         </div>
                     </div>
                     <div class="media align-items-center mb-40">
@@ -304,9 +349,8 @@ About Area
                                 </span>
                         </div>
                         <div class="media-body">
-                            <h3 class="food-title">Hygienic Food</h3>
-                            <p class="mb-0">It's the perfect dining experience where every dish is crafted with
-                                fresh.</p>
+                            <h3 class="food-title">Самые свежие продукты</h3>
+                            <p class="mb-0">Мы используем только свежие ингредиенты для создания наших блюд.</p>
                         </div>
                     </div>
                     <div class="media align-items-center">
@@ -316,9 +360,8 @@ About Area
                                 </span>
                         </div>
                         <div class="media-body">
-                            <h3 class="food-title">Online Delivery</h3>
-                            <p class="mb-0">It's the perfect dining experience where every dish is crafted with
-                                fresh.</p>
+                            <h3 class="food-title">Онлайн Заказы</h3>
+                            <p class="mb-0">Заказывайте легко через Яндекс.Еду и наслаждайтесь нашими блюдами где угодно.</p>
                         </div>
                     </div>
                 </div>
@@ -344,8 +387,9 @@ About Area
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-8 col-sm-12">
                     <div class="banner-content">
-                        <h2 class="banner-title">Download Our App &amp; <span>Order Online</span> To Get Free Delivery</h2>
-                        <p class="banner-text">we'll bring food and groceries in a flash</p>
+                        <h2 class="banner-title">Скачайте наше приложение &amp; <span>Заказывайте онлайн</span> с доставкой
+                        </h2>
+                        <p class="banner-text">мы мигом будем у вас!</p>
                         <div class="vs-btn-group">
                             <a class="vs-btn" href="#">
                                 <img src="assets/img/banner/google-play.svg" alt="banner">
@@ -372,7 +416,8 @@ About Area
     Promotional Banner
 ==============================-->
 <div class="vs-promotional-banner position-relative pb-lg-130 pb-60" id="blog">
-    <div class="vs-container background-image position-relative" data-vs-img="assets/img/bg/banner-bg1.png" style="background-image: url(&quot;assets/img/bg/banner-bg1.png&quot;);">
+    <div class="vs-container background-image position-relative" data-vs-img="assets/img/bg/banner-bg1.png"
+         style="background-image: url(&quot;assets/img/bg/banner-bg1.png&quot;);">
         <div class="row align-items-center">
             <div class="col-lg-4">
                 <div class="banner-images">
@@ -442,15 +487,15 @@ About Area
         Footer Area
 ==============================-->
 <footer class="footer-wrapper footer-layout1 dark-footer bg-black">
-    <div class="footer-widget-wrapper footer-widget-layout1 pt-40 pt-lg-100 pb-10 pb-lg-60  background-image" data-vs-img="assets/img/bg/bg-3.jpg">
+    <div class="footer-widget-wrapper footer-widget-layout1 pt-40 pt-lg-100 pb-10 pb-lg-60  background-image"
+         data-vs-img="assets/img/bg/bg-3.jpg">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-4 col-xl-4">
                     <div class="widget pt-0">
-                        <h3 class="widget_title text-20">About Us</h3>
+                        <h3 class="widget_title text-20">О нас</h3>
                         <div class="vs-widget-about">
-                            <p class="widget-about-text mb-30 lh-32 pr-xl-5">Energistically repurpose client-based odels rather than magnetic sources. Intrinsicly
-                                bcks-and-mortar ideas before.</p>
+                            <p class="widget-about-text mb-30 lh-32 pr-xl-5">Gastro Pizza Sochy — вкусные моменты каждый день!</p>
                             <div class="social-links links-has-border">
                                 <ul>
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -463,58 +508,10 @@ About Area
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-4">
-                    <div class="widget widget_nav_menu   ">
-                        <h3 class="widget_title text-20">Food Menu</h3>
-                        <div class="menu-all-pages-container">
-                            <div class="row">
-                                <div class="col-sm-6 col-md-6">
-                                    <ul class="menu">
-                                        <li><a href="menu.html">White Castle</a></li>
-                                        <li><a href="menu.html">Beef Sandwich</a></li>
-                                        <li><a href="menu.html">Cherry Limea</a></li>
-                                        <li><a href="menu.html">Wendy's Frosty</a></li>
-                                        <li><a href="menu.html">Pumpkin Spice</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6 col-md-6">
-                                    <ul class="menu">
-                                        <li><a href="menu.html">Burrito Sreme</a></li>
-                                        <li><a href="menu.html">Sandwich</a></li>
-                                        <li><a href="menu.html">Donuts Coffee</a></li>
-                                        <li><a href="menu.html">Krispy Kreme</a></li>
-                                        <li><a href="menu.html">Nacho Fries</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-4">
-
-                    <div class="widget  ">
-                        <h3 class="widget_title text-20">Latest Posts</h3>
-                        <div class="vs-widget-recent-post pt-2">
-                            <div class="recent-post media align-items-center">
-                                <div class="media-img">
-                                    <img src="assets/img/widget/post-thumb-2-1.jpg" alt="Recent Post Image">
-                                </div>
-                                <div class="media-body pl-20">
-                                    <h4 class="recent-post-title h6 "><a href="blog.html">Assertively visualize best-of-breed customers.</a></h4>
-                                    <a class="text-theme" href="blog.html"><i class="fal fa-calendar-alt text-theme"></i>05 June, 2022.</a>
-                                </div>
-                            </div>
-                            <div class="recent-post media align-items-center">
-                                <div class="media-img">
-                                    <img src="assets/img/widget/post-thumb-2-2.jpg" alt="Recent Post Image">
-                                </div>
-                                <div class="media-body pl-20">
-                                    <h4 class="recent-post-title h6"><a href="blog.html">Wonderful Natural Feeling Lorem ipsum</a></h4>
-                                    <a class="text-theme" href="blog.html"><i class="fal fa-calendar-alt text-theme"></i>28 June, 2022.</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="d-flex flex-column">
+                        <h3 class="widget_title text-20">Наши контакты</h3>
+                    <p class="widget-about-text">Адрес: Краснодарский край, Сочи, микрорайон Бытха, улица Бытха, 41/30</p>
+                    <p class="widget-about-text">Телефон: +869 526 212</p>
                 </div>
             </div>
         </div>
@@ -523,7 +520,10 @@ About Area
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-5 text-center text-xl-left">
-                    <p class="mb-0">Copyright <i class="fal fa-copyright"></i> 2022 <a href="index.html" class="text-bold text-white">Grillino</a> - All rights reserved by <a href="https://themeforest.net/user/vecuro_themes" class="text-bold text-white">Vecuro</a>.</p>
+                    <p class="mb-0">Copyright <i class="fal fa-copyright"></i> 2022 <a href="index.html"
+                                                                                       class="text-bold text-white">Grillino</a>
+                        - All rights reserved by <a href="https://themeforest.net/user/vecuro_themes"
+                                                    class="text-bold text-white">Vecuro</a>.</p>
                 </div>
                 <div class="col-xl-2 text-center d-none d-xl-block">
                     <div class="footer-logo">
@@ -546,7 +546,8 @@ Sidemenu
 ============================== -->
 <div class="sidemenu-wrapper d-none d-lg-block  ">
     <div class="sidemenu-content">
-        <button class="closeButton border-theme text-theme bg-theme-hover sideMenuCls"><i class="far fa-times"></i></button>
+        <button class="closeButton border-theme text-theme bg-theme-hover sideMenuCls"><i class="far fa-times"></i>
+        </button>
         <div class="widget woocommerce widget_shopping_cart">
             <h3 class="widget_title">Shopping cart</h3>
             <div class="widget_shopping_cart_content">
@@ -622,7 +623,8 @@ Sidemenu
                 <h5 id="compound"></h5>
                 <div>
                     <nav>
-                        <div class="nav nav-tabs justify-content-center food-menu-style3" id="nav-tab" role="tablist"></div>
+                        <div class="nav nav-tabs justify-content-center food-menu-style3" id="nav-tab"
+                             role="tablist"></div>
                     </nav>
                     <div class="tab-content d-flex justify-content-center" id="nav-tabContent"></div>
                 </div>
@@ -636,8 +638,6 @@ Sidemenu
 
 <!-- Scroll Top Top Button -->
 <a href="#" class="scrollToTop icon-btn bg-theme border-before-theme"><i class="far fa-angle-up"></i></a>
-
-
 
 
 <!--==============================
@@ -710,7 +710,7 @@ Sidemenu
                                         <h3 class="food-title text-lg mb-0 getVariants">${item.name}</h3>
                                         <p class="food-text mb-0 text-xs">${item.description}</p>
                                         <span class="food-rating-icon text-theme text-md"><i class="fas fa-star"></i></span>
-                                        <button type="button" class="vs-btn mask-style3 getVariants" data-toggle="modal"
+                                        <button type="button" class="vs-btn mask-style3 getVariants m-2" data-toggle="modal"
                                                 data-target="#exampleModalCenter" data-name="${item.id}">
                                             Выбрать
                                         </button>
@@ -772,7 +772,7 @@ Sidemenu
                             <div class="${tab_pane_class}" id="nav-${value.id}" role="tabpanel" aria-labelledby="nav-${value.id}-tab">
                                 <img style="width: 300px" class="m-2" src="${value.picture}" alt="pizza-size">
                                 <p></p>
-                                <button type="button" class="vs-btn mask-style1 ml-2" style="width: 300px" id="to-basket-button">В корзину за ${value.price} ₽</button>
+                                <button type="button" class="vs-btn mask-style1 ml-2 add-to-basket" style="width: 300px" data-name="${value.id}">В корзину за ${value.price} ₽</button>
                             </div>
                         `;
 
@@ -788,6 +788,53 @@ Sidemenu
                     // Обработчик ошибок
                     console.error('Ошибка при выполнении запроса:', status, error);
                     alert('Произошла ошибка при загрузке данных. Пожалуйста, попробуйте позже.');
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $(document).on('click', '.getBasket', function () {
+            // Выполнение AJAX запроса
+            $.ajax({
+                type: 'POST',
+                url: `api/clients/basket/get`,
+                success: function (response) {
+                    alert('Корзина получена');
+                    console.log(response);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Ошибка при выполнении запроса:', status, error);
+                }
+            });
+        })
+    })
+</script>
+{{--Добавление товара в корзину--}}
+<script>
+    $(document).ready(function () {
+        $(document).on('click', '.add-to-basket', function () {
+            let itemVariant = $(this).data('name');
+            let quantity = 1; // Количество товара, можно сделать динамическим
+            // console.log(itemVariant);
+            $.ajax({
+                type: 'POST',
+                url: `api/clients/basket/add/${itemVariant}`,
+                data: {
+                    quantity: quantity
+                },
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
+                success: function (response) {
+                    alert('Товар успешно добавлен в корзину');
+                    console.log(response);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Ошибка при добавлении товара в корзину:', status, error);
+                    alert('Произошла ошибка при добавлении товара в корзину. Пожалуйста, попробуйте позже.');
                 }
             });
         });
