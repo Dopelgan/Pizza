@@ -121,8 +121,8 @@ Sticky Header
                 <nav class="main-menu menu-sticky1 onepage-nav d-none d-lg-block link-inherit mobile-menu-active">
                     <ul>
                         <li><a href="#">Домой</a></li>
-                        <li><a href="#about">О нас</a></li>
                         <li><a href="#menu">Меню</a></li>
+                        <li><a href="#about">О нас</a></li>
                         <li><a href="#app">Приложение</a></li>
                         <li><a href="#blog">Блог</a></li>
                     </ul>
@@ -161,8 +161,8 @@ Mobile Menu
                 <nav class="main-menu menu-style4 link-inherit text-right text-xl-left mobile-menu-active onepage-nav">
                     <ul>
                         <li><a href="#">Домой</a></li>
-                        <li><a href="#about">О нас</a></li>
                         <li><a href="#menu">Меню</a></li>
+                        <li><a href="#about">О нас</a></li>
                         <li><a href="#app">Приложение</a></li>
                         <li><a href="#blog">Блог</a></li>
                     </ul>
@@ -769,6 +769,7 @@ Sidemenu
         });
     });
 </script>
+
 {{--Отображение корзины--}}
 <script>
     $(document).ready(function () {
@@ -797,7 +798,7 @@ Sidemenu
                             </span>
                         </li>
                         `
-                        total = total + value.item_variant.price
+                        total = total + value.item_variant.price*value.quantity
 
                         $('#product_list_widget').append(html);
                     })
@@ -817,6 +818,7 @@ Sidemenu
         })
     })
 </script>
+
 {{--Добавление товара в корзину--}}
 <script>
     $(document).ready(function () {
@@ -845,6 +847,7 @@ Sidemenu
         });
     });
 </script>
+
 {{--Удаление товара из корзины--}}
 <script>
     $(document).ready(function () {
@@ -866,6 +869,7 @@ Sidemenu
         });
     });
 </script>
+
 {{--Очистка корзины--}}
 <script>
     $(document).ready(function () {
@@ -885,6 +889,7 @@ Sidemenu
         });
     });
 </script>
+
 </body>
 
 </html>
