@@ -576,7 +576,7 @@ Sidemenu
                     {{--                            <span class="woocommerce-Price-currencySymbol">$</span>318.00</span>--}}
                 </p>
                 <p class="woocommerce-mini-cart__buttons buttons">
-                    <button class="vs-btn style1 wc-forward">Очистить</button>
+                    <button class="vs-btn style1 wc-forward clear-basket">Очистить</button>
                     <button class="vs-btn style1 checkout wc-forward">Оплатить</button>
                 </p>
             </div>
@@ -848,15 +848,12 @@ Sidemenu
 {{--Удаление товара из корзины--}}
 <script>
     $(document).ready(function () {
-        $(document).on('click', '.pizda', function () {
+        $(document).on('click', '.remove-from-basket', function () {
             let itemVariantId = $(this).data('name');
             console.log(itemVariantId)
             $.ajax({
                 type: 'POST',
                 url: `api/clients/basket/remove/${itemVariantId}`,
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                },
                 success: function (response) {
                     alert('Товар удален из корзины');
                     console.log(response);
@@ -864,6 +861,25 @@ Sidemenu
                 error: function (xhr, status, error) {
                     console.error('Ошибка при удалении товара из корзины:', status, error);
                     alert('Произошла ошибка при удалении товара из корзины. Пожалуйста, попробуйте позже.');
+                }
+            });
+        });
+    });
+</script>
+{{--Очистка корзины--}}
+<script>
+    $(document).ready(function () {
+        $(document).on('click', '.clear-basket', function () {
+            $.ajax({
+                type: 'POST',
+                url: `api/clients/basket/clear`,
+                success: function (response) {
+                    alert('Корзина очищена');
+                    console.log(response);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Ошибка при очистке корзины:', status, error);
+                    alert('Произошла ошибка при очистке корзины. Пожалуйста, попробуйте позже.');
                 }
             });
         });
