@@ -178,8 +178,7 @@ Mobile Menu
                         </div>
                         <div class="media-body">
                             <span class="text-white-light">Заказ по телефону</span>
-                            <p class="mb-0 h4 text-font1 text-white"><a href="tel:+88005553535"><strong>+869 526
-                                        212</strong></a></p>
+                            <p class="mb-0 h4 text-font1 text-white"><a href="tel:88005553535"><strong>8 800 555 35 35</strong></a></p>
                         </div>
                     </div>
                     <div class="header-btn pl-lg-50">
@@ -516,11 +515,15 @@ About Area
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-column">
-                    <h3 class="widget_title text-20">Наши контакты</h3>
-                    <p class="widget-about-text">Адрес: Краснодарский край, Сочи, микрорайон Бытха, улица Бытха,
-                        41/30</p>
-                    <p class="widget-about-text">Телефон: +869 526 212</p>
+                <div class="col-lg-4 col-xl-4">
+                    <div class="widget pt-0">
+                        <h3 class="widget_title text-20">Наши контакты</h3>
+                        <div class="vs-widget-about">
+                            <p class="widget-about-text">Адрес: Краснодарский край, Сочи, микрорайон Бытха, улица Бытха,
+                                41/30</p>
+                            <p class="widget-about-text">Телефон: 8 800 555 35 35</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -798,7 +801,7 @@ Sidemenu
                             </span>
                         </li>
                         `
-                        total = total + value.item_variant.price*value.quantity
+                        total = total + value.item_variant.price * value.quantity
 
                         $('#product_list_widget').append(html);
                     })
