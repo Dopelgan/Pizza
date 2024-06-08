@@ -86,7 +86,7 @@
  Preloader
 ==============================-->
 <div class="preloader  ">
-    <button class="vs-btn mask-style1 preloaderCls">Cancel Preloader</button>
+    <button class="vs-btn mask-style1 preloaderCls">Отменить предзагрузку</button>
     <div class="preloader-inner">
         <div class="loader-logo">
             <img src="assets/img/logo-white.png" alt="Loader Image">
@@ -114,7 +114,7 @@ Sticky Header
         <div class="row align-items-center">
             <div class="col-5 col-md-3">
                 <div class="logo">
-                    <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                    <a href="index.php"><img src="assets/img/logo.png" alt="logo"></a>
                 </div>
             </div>
             <div class="col-7 col-md-9 text-right">
@@ -140,7 +140,7 @@ Mobile Menu
     <div class="vs-menu-area">
         <button class="vs-menu-toggle text-theme"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+            <a href="index.php"><img src="assets/img/logo.png" alt="logo"></a>
         </div>
         <div class="vs-mobile-menu link-inherit"></div><!-- Menu Will Append With Javascript -->
     </div>
@@ -153,8 +153,8 @@ Mobile Menu
         <div class="row align-items-center">
             <div class="col-6 col-md-3 col-lg-2 col-xl-2">
                 <div class="header-logo">
-                    <a href="index.html"><img src="assets/img/logo-white.png" alt="Logo" class="d-none d-lg-block"></a>
-                    <a href="index.html"><img src="assets/img/logo.png" alt="Logo" class="d-block d-lg-none"></a>
+                    <a href="index.php"><img src="assets/img/logo-white.png" alt="Logo" class="d-none d-lg-block"></a>
+                    <a href="index.php"><img src="assets/img/logo.png" alt="Logo" class="d-block d-lg-none"></a>
                 </div>
             </div>
             <div class="col-6 col-md-9 col-lg-7 col-xl-5 position-static">
@@ -178,7 +178,7 @@ Mobile Menu
                         </div>
                         <div class="media-body">
                             <span class="text-white-light">Заказ по телефону</span>
-                            <p class="mb-0 h4 text-font1 text-white"><a href="tel:+869526212"><strong>+869 526
+                            <p class="mb-0 h4 text-font1 text-white"><a href="tel:+88005553535"><strong>+869 526
                                         212</strong></a></p>
                         </div>
                     </div>
@@ -206,7 +206,7 @@ Mobile Menu
                  data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
             <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
                data-ls-desktop="top: 317px; font-size: 48px;"
-               style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;"
+               style="left: 60px; font-family: 'Bonjour Mon Ami RUS', cursive; color: #ffe119;"
                data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
                 Вкусная еда</p>
             <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
@@ -231,7 +231,7 @@ Mobile Menu
                  data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
             <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
                data-ls-desktop="top: 317px; font-size: 48px;"
-               style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;"
+               style="left: 60px; font-family: 'Bonjour Mon Ami RUS', cursive; color: #ffe119;"
                data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
                 Вкусная еда</p>
             <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
@@ -256,7 +256,7 @@ Mobile Menu
                  data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
             <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
                data-ls-desktop="top: 317px; font-size: 48px;"
-               style="left: 60px; font-family: 'Cookie', cursive; color: #ffe119;"
+               style="left: 60px; font-family: 'Bonjour Mon Ami RUS', cursive; color: #ffe119;"
                data-ls="offsetxin: -200; durationin: 1000; delayin: 0; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
                 Вкусная еда</p>
             <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
@@ -282,8 +282,8 @@ Food Box Area
 ==============================-->
 <section
         class="vs-food-box-wrapper position-relative food-box-layout1 link-inherit background-image pt-lg-150 pb-lg-120 pb-30"
-        data-vs-img="assets/img/food-menu/food-menu-bg-img-1-1.png" data-overlay="white" data-opacity="8" id="menu"
-        style="background-image: url(&quot;assets/img/food-menu/food-menu-bg-img-1-1.png&quot;);">
+        data-vs-img="assets/img/food-menu/food-menu-bg-img-1-1.jpg" data-overlay="white" data-opacity="8" id="menu"
+        style="background-image: url(&quot;assets/img/food-menu/food-menu-bg-img-1-1.jpg&quot;);">
     <span class="shape1 position-absolute ani-moving"><i class="flaticon-berries icon-6x" data-opacity="1"></i></span>
     <div class="container">
         <div class="row justify-content-center">
@@ -529,14 +529,14 @@ About Area
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-5 text-center text-xl-left">
-                    <p class="mb-0">Copyright <i class="fal fa-copyright"></i> 2022 <a href="index.html"
+                    <p class="mb-0">Copyright <i class="fal fa-copyright"></i> 2022 <a href="index.php"
                                                                                        class="text-bold text-white">Grillino</a>
                         - All rights reserved by <a href="https://themeforest.net/user/vecuro_themes"
                                                     class="text-bold text-white">Vecuro</a>.</p>
                 </div>
                 <div class="col-xl-2 text-center d-none d-xl-block">
                     <div class="footer-logo">
-                        <a href="index.html"><img src="assets/img/logo-white.png" alt="Logo"></a>
+                        <a href="index.php"><img src="assets/img/logo-white.png" alt="Logo"></a>
                     </div>
                 </div>
                 <div class="col-xl-5 text-right d-none d-xl-block">
