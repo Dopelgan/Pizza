@@ -7,8 +7,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Gastro Pizza Sochy</title>
     <meta name="author" content="Vecuro">
-    <meta name="description" content="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template">
-    <meta name="keywords" content="Grillino - Food Restaurant Cafe Grill & Bistro HTML Template"/>
+    <meta name="description" content="Gastro Pizza Sochy — вкусные моменты каждый день!">
+    <meta name="keywords" content="Gastro Pizza Sochy — вкусные моменты каждый день!"/>
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -69,13 +69,10 @@
 </head>
 
 <body>
-
-
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
-
 
 <!--********************************
        Code Start From Here
@@ -136,13 +133,132 @@ Sticky Header
 <!--==============================
 Mobile Menu
 ============================== -->
-<div class="vs-menu-wrapper">
+<div class="vs-menu-wrapper" style="">
     <div class="vs-menu-area">
         <button class="vs-menu-toggle text-theme"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="index.php"><img src="assets/img/logo.png" alt="logo"></a>
+            <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
         </div>
-        <div class="vs-mobile-menu link-inherit"></div><!-- Menu Will Append With Javascript -->
+        <div class="vs-mobile-menu link-inherit" style="">
+            <ul>
+                <li class="menu-item-has-children vs-item-has-children">
+                    <a href="index.html" class="vs-mean-expand">Home</a>
+                    <ul class="sub-menu vs-submenu" style="display: none;">
+                        <li><a href="index.html">Home Style 1</a></li>
+                        <li><a href="index-2.html">Home Style 2</a></li>
+                        <li><a href="index-3.html">Home Style 3</a></li>
+                        <li><a href="index-4.html">Home Style 4</a></li>
+                        <li><a href="index-5.html">Home Style 5</a></li>
+                        <li><a href="index-6.html">Home Style 6</a></li>
+                        <li><a href="index-7.html">Home Style 7</a></li>
+                        <li><a href="index-8.html">Home Style 8</a></li>
+                        <li><a href="index-9.html">Home Style 9</a></li>
+                        <li><a href="index-onepage.html">Home Style 1 (One Page)</a></li>
+                        <li><a href="index-2-onepage.html">Home Style 2 (One Page)</a></li>
+                        <li><a href="index-3-onepage.html">Home Style 3 (One Page)</a></li>
+                        <li><a href="index-4-onepage.html">Home Style 4 (One Page)</a></li>
+                        <li><a href="index-5-onepage.html">Home Style 5 (One Page)</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children vs-item-has-children">
+                    <a href="about.html" class="vs-mean-expand">About</a>
+                    <ul class="sub-menu vs-submenu" style="display: none;">
+                        <li><a href="about.html">About One</a></li>
+                        <li><a href="about-2.html">About Two</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children vs-item-has-children">
+                    <a href="blog.html" class="vs-mean-expand">Blog</a>
+                    <ul class="sub-menu vs-submenu" style="display: none;">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                        <li><a href="blog-grid.html">Blog Grid</a></li>
+                        <li><a href="blog-grid-2.html">Blog Grid Two</a></li>
+                        <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
+                        <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                        <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
+                        <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
+                    </ul>
+                </li>
+                <li class="mega-menu-wrap menu-item-has-children vs-item-has-children">
+                    <a href="#" class="vs-mean-expand">Pages</a>
+                    <ul class="mega-menu vs-submenu" style="display: none;">
+                        <li class="vs-item-has-children"><a href="shop.html" class="vs-mean-expand">Pagelist 1</a>
+                            <ul class="vs-submenu" style="display: none;">
+                                <li><a href="index.html">Home Style 1</a></li>
+                                <li><a href="index-2.html">Home Style 2</a></li>
+                                <li><a href="index-3.html">Home Style 3</a></li>
+                                <li><a href="index-4.html">Home Style 4</a></li>
+                                <li><a href="index-5.html">Home Style 5</a></li>
+                                <li><a href="index-6.html">Home Style 6</a></li>
+                                <li><a href="index-7.html">Home Style 7</a></li>
+                                <li><a href="index-onepage.html">Home Style 1 (One Page)</a></li>
+                                <li><a href="index-2-onepage.html">Home Style 2 (One Page)</a></li>
+                                <li><a href="index-3-onepage.html">Home Style 3 (One Page)</a></li>
+                                <li><a href="index-4-onepage.html">Home Style 4 (One Page)</a></li>
+                                <li><a href="index-5-onepage.html">Home Style 5 (One Page)</a></li>
+                                <li><a href="about.html">About One</a></li>
+                                <li><a href="about-2.html">About Two</a></li>
+                            </ul>
+                        </li>
+                        <li class="vs-item-has-children"><a href="#" class="vs-mean-expand">Pagelist 2</a>
+                            <ul class="vs-submenu" style="display: none;">
+                                <li><a href="chef.html">Chef One</a></li>
+                                <li><a href="chef-2.html">Chef Two</a></li>
+                                <li><a href="chef-details.html">Chef Details</a></li>
+                                <li><a href="menu.html">Menu One</a></li>
+                                <li><a href="menu-2.html">Menu Two</a></li>
+                                <li><a href="menu-3.html">Menu Three</a></li>
+                                <li><a href="menu-4.html">Menu Four</a></li>
+                                <li><a href="menu-details.html">Menu Details</a></li>
+                                <li><a href="reservation.html">Reservation</a></li>
+                                <li><a href="reservation-2.html">Reservation Two</a></li>
+                                <li><a href="contact.html">Contact One</a></li>
+                            </ul>
+                        </li>
+                        <li class="vs-item-has-children"><a href="#" class="vs-mean-expand">Pagelist 3</a>
+                            <ul class="vs-submenu" style="display: none;">
+                                <li><a href="contact-2.html">Contact Two</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                <li><a href="blog-grid.html">Blog Grid</a></li>
+                                <li><a href="blog-grid-2.html">Blog Grid Two</a></li>
+                                <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
+                                <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                                <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
+                                <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
+                            </ul>
+                        </li>
+                        <li class="vs-item-has-children"><a href="#" class="vs-mean-expand">Pagelist 4</a>
+                            <ul class="vs-submenu" style="display: none;">
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                                <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
+                                <li><a href="shop-details.html">Shop Details</a></li>
+                                <li><a href="shop-details-sidebar.html">Shop Details Sidebar</a></li>
+                                <li><a href="shop-details-left-sidebar.html">Shop Details Left Sidebar</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="login.html">Sign In</a></li>
+                                <li><a href="sign-up.html">Sign Up</a></li>
+                                <li><a href="error.html">Error Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children vs-item-has-children">
+                    <a href="contact.html" class="vs-mean-expand">Contact</a>
+                    <ul class="sub-menu vs-submenu" style="display: none;">
+                        <li><a href="contact.html">Contact One</a></li>
+                        <li><a href="contact-2.html">Contact Two</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- Menu Will Append With Javascript -->
     </div>
 </div>
 <!--==============================
@@ -178,7 +294,8 @@ Mobile Menu
                         </div>
                         <div class="media-body">
                             <span class="text-white-light">Заказ по телефону</span>
-                            <p class="mb-0 h4 text-font1 text-white"><a href="tel:88005553535"><strong>8 800 555 35 35</strong></a></p>
+                            <p class="mb-0 h4 text-font1 text-white"><a href="tel:88005553535"><strong>8 800 555 35
+                                        35</strong></a></p>
                         </div>
                     </div>
                     <div class="header-btn pl-lg-50">
@@ -556,7 +673,7 @@ About Area
 <!--==============================
 Sidemenu
 ============================== -->
-<div class="sidemenu-wrapper d-none d-lg-block  ">
+<div class="sidemenu-wrapper">
     <div class="sidemenu-content">
         <button class="closeButton border-theme text-theme bg-theme-hover sideMenuCls"><i class="far fa-times"></i>
         </button>
@@ -617,7 +734,6 @@ Sidemenu
 
 <!-- Scroll Top Top Button -->
 <a href="#" class="scrollToTop icon-btn bg-theme border-before-theme"><i class="far fa-angle-up"></i></a>
-
 
 <!--==============================
     All Js File
@@ -828,7 +944,6 @@ Sidemenu
         $(document).on('click', '.add-to-basket', function () {
             let itemVariantId = $(this).data('name');
             let quantity = 1; // Количество товара, можно сделать динамическим
-            // console.log(itemVariant);
             $.ajax({
                 type: 'POST',
                 url: `api/clients/basket/add/${itemVariantId}`,
@@ -853,22 +968,20 @@ Sidemenu
 
 {{--Удаление товара из корзины--}}
 <script>
-    $(document).ready(function () {
-        $(document).on('click', '.remove-from-basket', function () {
-            let itemVariantId = $(this).data('name');
-            console.log(itemVariantId)
-            $.ajax({
-                type: 'POST',
-                url: `api/clients/basket/remove/${itemVariantId}`,
-                success: function (response) {
-                    alert('Товар удален из корзины');
-                    console.log(response);
-                },
-                error: function (xhr, status, error) {
-                    console.error('Ошибка при удалении товара из корзины:', status, error);
-                    alert('Произошла ошибка при удалении товара из корзины. Пожалуйста, попробуйте позже.');
-                }
-            });
+    $(document).on('click', '.remove-from-basket', function () {
+        let itemVariantId = $(this).attr('data-name');
+        console.log(itemVariantId)
+        $.ajax({
+            type: 'POST',
+            url: `api/clients/basket/remove/${itemVariantId}`,
+            success: function (response) {
+                alert('Товар удален из корзины');
+                console.log(response);
+            },
+            error: function (xhr, status, error) {
+                console.error('Ошибка при удалении товара из корзины:', status, error);
+                alert('Произошла ошибка при удалении товара из корзины. Пожалуйста, попробуйте позже.');
+            }
         });
     });
 </script>
@@ -891,6 +1004,27 @@ Sidemenu
             });
         });
     });
+</script>
+
+{{--mobile basket--}}
+<script>
+    $(document).ready(function () {
+        // бургерное меню у мобильной версии
+        $('body > header > div > div > div.col-6.col-md-9.col-lg-7.col-xl-5.position-static > button').on('click', function () {
+            let $target = $('body > div.vs-menu-wrapper');
+
+            if ($target.hasClass('vs-body-visible')) {
+                $target.removeClass('vs-body-visible');
+            } else {
+                $target.addClass('vs-body-visible');
+            }
+
+            //крестик в мобильной версии у меню
+            $('body > div.vs-menu-wrapper.vs-body-visible > div > button').unbind().on('focus', function () {
+                $('body > div.vs-menu-wrapper').removeClass('vs-body-visible');
+            })
+        })
+    })
 </script>
 
 </body>
