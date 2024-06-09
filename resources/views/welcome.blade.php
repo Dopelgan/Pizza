@@ -211,11 +211,11 @@ Mobile Menu
             <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
                 data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px;  color: #fff; "
                 data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Для Хорошего</h1>
+                Для хорошего</h1>
             <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;"
                 data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px;  color: #fff; "
                 data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Настроения</h1>
+                настроения</h1>
             <div class="hero-btn ls-l ls-responsive"
                  data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;"
                  data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;"
@@ -236,11 +236,11 @@ Mobile Menu
             <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
                 data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;"
                 data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Из натуральных</h1>
+                Прямо</h1>
             <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;"
                 data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;"
                 data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Продуктов</h1>
+                из печи</h1>
             <div class="hero-btn ls-l  ls-responsive"
                  data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;"
                  data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;"
@@ -261,11 +261,11 @@ Mobile Menu
             <h1 class="ls-l ls-responsive" data-ls-mobile="top: 250px; font-size: 100px;"
                 data-ls-desktop="top: 372px; font-size: 80px;" style="left: 60px; color: #fff;"
                 data-ls="offsetxin: -200; durationin: 1000; delayin: 300; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                Прямо</h1>
+                Натуральные</h1>
             <h1 class="ls-l ls-responsive" data-ls-mobile="top: 380px; font-size: 100px;"
                 data-ls-desktop="top: 462px; font-size: 80px;" style="left: 60px; color: #fff;"
                 data-ls="offsetxin: -200; durationin: 1000; delayin: 600; easingin:easeOutQuint; offsetxout: -50; durationout: 1000;">
-                с Гриля</h1>
+                продукты</h1>
             <div class="hero-btn ls-l  ls-responsive"
                  data-ls-mobile="top: 545px; width: 480px; height: 150px; line-height: 150px; font-size: 42px;"
                  data-ls-tablet="top: 582px; width: 280px; height: 80px; line-height: 80px; font-size: 22px;"
