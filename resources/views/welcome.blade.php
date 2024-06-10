@@ -907,9 +907,7 @@ Sidemenu
                     $.each(response.response, function (key, value) {
                         let html = `
                         <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <button type="button" class="close remove-from-basket" data-name="${value.item_variant.id}">
-                                &times;
-                            </button>
+                            <a href="#" class="remove remove-from-basket" data-name="${value.item_variant.id}"><i class="far fa-times"></i></a href="#">
                             <a><img src="${value.item.picture}" alt="Cart Image">${value.item.name} ${value.item_variant.name}</a>
                             <span class="quantity">${value.quantity} ×
                             <span class="woocommerce-Price-amount amount">

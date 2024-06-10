@@ -136,20 +136,8 @@
       $($sideMenu).addClass($toggleCls);
       $('body').addClass('overflow-hidden');
     });
-    $($sideMenu).on('click', function (e) {
-      e.stopPropagation();
-      $($sideMenu).removeClass($toggleCls)
-      $('body').removeClass('overflow-hidden');
-    });
-    var sideMenuChild = $sideMenu + ' > div';
-    $(sideMenuChild).on('click', function (e) {
-      e.stopPropagation();
-      $($sideMenu).addClass($toggleCls)
-      $('body').addClass('overflow-hidden');
-    });
     $($sideMenuCls).on('click', function (e) {
       e.preventDefault();
-      e.stopPropagation();
       $($sideMenu).removeClass($toggleCls);
       $('body').removeClass('overflow-hidden');
     });
