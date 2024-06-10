@@ -300,8 +300,9 @@ Mobile Menu
                     </div>
                     <div class="header-btn pl-lg-50">
                         <a href="#" class="icon-btn text-red mr-15 searchBoxTggler"><i class="fal fa-search"></i></a>
-                        <a href="#" class="icon-btn text-red sideMenuToggler cart-btn getBasket"><span
-                                    class="number bg-theme">9</span><i class="fal fa-shopping-cart"></i></a>
+                        <a href="#" class="icon-btn text-red sideMenuToggler cart-btn getBasket">
+                            <span class="number bg-theme" id="basket-count"></span><i class="fal fa-shopping-cart"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -889,117 +890,145 @@ Sidemenu
     });
 </script>
 
-{{--Отображение корзины--}}
+{{--Работа с корзиной--}}
 <script>
+    // Универсальная функция для выполнения AJAX-запросов
+    function performAjaxRequest(url, type, data = {}, successCallback, errorCallback) {
+        $.ajax({
+            type: type,
+            url: url,
+            data: data,
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            success: successCallback,
+            error: errorCallback
+        });
+    }
+
+    // Функция для обновления данных корзины
+    function updateBasket() {
+        performAjaxRequest(
+            'api/clients/basket/get',
+            'POST',
+            {},
+            function (response) {
+                let total = 0;
+                $('#product_list_widget').empty();
+                $('#total').empty();
+
+                $.each(response.response, function (key, value) {
+                    let html = `
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove-from-basket" data-name="${value.item_variant.id}"><i class="far fa-times"></i></a>
+                        <a><img src="${value.item_variant.picture}" alt="Cart Image">${value.item.name} ${value.item_variant.name}</a>
+                        <span class="quantity">${value.quantity} ×
+                        <span class="woocommerce-Price-amount amount">
+                        <span class="woocommerce-Price-currencySymbol">${value.item_variant.price}</span>₽</span>
+                        </span>
+                    </li>
+                    `;
+                    total += value.item_variant.price * value.quantity;
+                    $('#product_list_widget').append(html);
+                });
+
+                let totalHtml = `
+                <strong>Итого:</strong>
+                <span class="woocommerce-Price-amount amount">
+                        <span class="woocommerce-Price-currencySymbol">${total}</span>₽</span>
+                `;
+                $('#total').append(totalHtml);
+            },
+            function (xhr, status, error) {
+                console.error('Ошибка при выполнении запроса:', status, error);
+            }
+        );
+    }
+
+    // Функция для обновления количества товаров в корзине
+    function updateBasketCount() {
+        performAjaxRequest(
+            'api/clients/basket/get',
+            'POST',
+            {},
+            function (response) {
+                let quantity = 0;
+                $.each(response.response, function (key, value) {
+                    quantity += value.quantity;
+                });
+                $('#basket-count').html(quantity || 0);
+                console.log(quantity);
+            },
+            function (xhr, status, error) {
+                console.error('Ошибка при выполнении запроса:', status, error);
+            }
+        );
+    }
+
     $(document).ready(function () {
-        $(document).on('click', '.getBasket', function () {
-            // Выполнение AJAX запроса
-            $.ajax({
-                type: 'POST',
-                url: `api/clients/basket/get`,
-                success: function (response) {
-                    let total = 0
+        // Вызов функции при загрузке страницы для первоначального обновления корзины и её количества
+        updateBasket();
+        updateBasketCount();
 
-                    // Очистка старых данных перед добавлением новых
-                    $('#product_list_widget').empty();
-                    $('#total').empty();
-                    // Добавление вариантов блюд
-                    $.each(response.response, function (key, value) {
-                        let html = `
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove-from-basket" data-name="${value.item_variant.id}"><i class="far fa-times"></i></a href="#">
-                            <a><img src="${value.item.picture}" alt="Cart Image">${value.item.name} ${value.item_variant.name}</a>
-                            <span class="quantity">${value.quantity} ×
-                            <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">${value.item_variant.price}</span>₽</span>
-                            </span>
-                        </li>
-                        `
-                        total = total + value.item_variant.price * value.quantity
-
-                        $('#product_list_widget').append(html);
-                    })
-
-                    let totalHtml = `
-                    <strong>Итого:</strong>
-                    <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">${total}</span>₽</span>
-                    `
-
-                    $('#total').append(totalHtml);
-                },
-                error: function (xhr, status, error) {
-                    console.error('Ошибка при выполнении запроса:', status, error);
-                }
-            });
-        })
-    })
-</script>
-
-{{--Добавление товара в корзину--}}
-<script>
-    $(document).ready(function () {
+        // Добавление товара в корзину
         $(document).on('click', '.add-to-basket', function () {
             let itemVariantId = $(this).data('name');
-            let quantity = 1; // Количество товара, можно сделать динамическим
-            $.ajax({
-                type: 'POST',
-                url: `api/clients/basket/add/${itemVariantId}`,
-                data: {
-                    quantity: quantity
-                },
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                },
-                success: function (response) {
+            performAjaxRequest(
+                `api/clients/basket/add/${itemVariantId}`,
+                'POST',
+                {quantity: 1},
+                function (response) {
                     alert('Товар успешно добавлен в корзину');
                     console.log(response);
+                    updateBasketCount();
                 },
-                error: function (xhr, status, error) {
+                function (xhr, status, error) {
                     console.error('Ошибка при добавлении товара в корзину:', status, error);
                     alert('Произошла ошибка при добавлении товара в корзину. Пожалуйста, попробуйте позже.');
                 }
-            });
+            );
         });
-    });
-</script>
-
-{{--Удаление товара из корзины--}}
-<script>
-    $(document).on('click', '.remove-from-basket', function () {
-        let itemVariantId = $(this).attr('data-name');
-        console.log(itemVariantId)
-        $.ajax({
-            type: 'POST',
-            url: `api/clients/basket/remove/${itemVariantId}`,
-            success: function (response) {
-                alert('Товар удален из корзины');
-                console.log(response);
-            },
-            error: function (xhr, status, error) {
-                console.error('Ошибка при удалении товара из корзины:', status, error);
-                alert('Произошла ошибка при удалении товара из корзины. Пожалуйста, попробуйте позже.');
-            }
+        // Удаление товара из корзины
+        $(document).on('click', '.remove-from-basket', function () {
+            let itemVariantId = $(this).attr('data-name');
+            performAjaxRequest(
+                `api/clients/basket/remove/${itemVariantId}`,
+                'POST',
+                {},
+                function (response) {
+                    alert('Товар удален из корзины');
+                    console.log(response);
+                    updateBasket();
+                    updateBasketCount();
+                },
+                function (xhr, status, error) {
+                    console.error('Ошибка при удалении товара из корзины:', status, error);
+                    alert('Произошла ошибка при удалении товара из корзины. Пожалуйста, попробуйте позже.');
+                }
+            );
         });
-    });
-</script>
-
-{{--Очистка корзины--}}
-<script>
-    $(document).ready(function () {
+        // Очистка корзины
         $(document).on('click', '.clear-basket', function () {
-            $.ajax({
-                type: 'POST',
-                url: `api/clients/basket/clear`,
-                success: function (response) {
+            performAjaxRequest(
+                'api/clients/basket/clear',
+                'POST',
+                {},
+                function (response) {
                     alert('Корзина очищена');
                     console.log(response);
+                    updateBasket();
+                    updateBasketCount();
                 },
-                error: function (xhr, status, error) {
+                function (xhr, status, error) {
                     console.error('Ошибка при очистке корзины:', status, error);
                     alert('Произошла ошибка при очистке корзины. Пожалуйста, попробуйте позже.');
                 }
-            });
+            );
+        });
+
+        $(document).on('click', '.getBasket', function () {
+            updateBasket();
+            updateBasketCount();
         });
     });
 </script>
