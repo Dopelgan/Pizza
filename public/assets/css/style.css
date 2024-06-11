@@ -1640,7 +1640,7 @@ textarea.form-control.is-invalid {
   font-size: 16px;
   border-radius: 50px;
   font-weight: 700;
-  padding: 17px 48px;
+  padding: 15px 40px;
   text-align: center;
   z-index: 1;
   position: relative;
@@ -1653,7 +1653,7 @@ textarea.form-control.is-invalid {
 }
 @media (max-width: 576px) {
   .vs-btn {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-right: 0;
   }
   .vs-btn:last-child, .vs-btn:last-of-type {
@@ -3806,13 +3806,13 @@ textarea.form-control.is-invalid {
 }
 .sidemenu-wrapper .sidemenu-content {
   background-color: var(--white-color);
-  width: 450px;
+  width: 375px;
   margin-left: auto;
-  padding: 80px 30px;
+  padding: 65px 25px;
   height: 100%;
   overflow: scroll;
   position: relative;
-  right: -500px;
+  right: -410px;
   cursor: auto;
   transition-delay: 1s;
   transition: right ease 1s;
