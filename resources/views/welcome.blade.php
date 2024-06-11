@@ -284,7 +284,9 @@ Mobile Menu
                         <li><a href="#" class="mobile-menu-btn sideMenuToggler">Корзина</a></li>
                     </ul>
                 </nav>
-                <button type="button" class="vs-menu-toggle ml-auto d-block text-theme border-theme d-lg-none mobile-menu-btn get-basket"><i
+                <button type="button"
+                        class="vs-menu-toggle ml-auto d-block text-theme border-theme d-lg-none mobile-menu-btn get-basket">
+                    <i
                             class="far fa-bars"></i></button>
             </div>
             <div class="col-lg-3 col-xl-5">
