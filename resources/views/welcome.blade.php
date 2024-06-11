@@ -124,7 +124,7 @@ Sticky Header
                         <li><a href="#blog">Блог</a></li>
                     </ul>
                 </nav>
-                <button class="vs-menu-toggle text-theme border-theme d-inline-block d-lg-none"><i
+                <button class="vs-menu-toggle text-theme border-theme d-inline-block d-lg-none mobile-menu-btn"><i
                             class="far fa-bars"></i></button>
             </div>
         </div>
@@ -135,7 +135,7 @@ Mobile Menu
 ============================== -->
 <div class="vs-menu-wrapper" style="">
     <div class="vs-menu-area">
-        <button class="vs-menu-toggle text-theme"><i class="fal fa-times"></i></button>
+        <button class="vs-menu-toggle text-theme mobile-menu-btn"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
             <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
         </div>
@@ -281,9 +281,10 @@ Mobile Menu
                         <li><a href="#about">О нас</a></li>
                         <li><a href="#app">Приложение</a></li>
                         <li><a href="#blog">Блог</a></li>
+                        <li><a href="#" class="mobile-menu-btn sideMenuToggler">Корзина</a></li>
                     </ul>
                 </nav>
-                <button type="button" class="vs-menu-toggle ml-auto d-block text-theme border-theme d-lg-none"><i
+                <button type="button" class="vs-menu-toggle ml-auto d-block text-theme border-theme d-lg-none mobile-menu-btn get-basket"><i
                             class="far fa-bars"></i></button>
             </div>
             <div class="col-lg-3 col-xl-5">
@@ -300,7 +301,7 @@ Mobile Menu
                     </div>
                     <div class="header-btn pl-lg-50">
                         <a href="#" class="icon-btn text-red mr-15 searchBoxTggler"><i class="fal fa-search"></i></a>
-                        <a href="#" class="icon-btn text-red sideMenuToggler cart-btn getBasket">
+                        <a href="#" class="icon-btn text-red sideMenuToggler cart-btn get-basket">
                             <span class="number bg-theme" id="basket-count"></span><i class="fal fa-shopping-cart"></i>
                         </a>
                     </div>
@@ -674,14 +675,14 @@ About Area
 <!--==============================
 Sidemenu
 ============================== -->
-<div class="sidemenu-wrapper">
+<div class="sidemenu-wrapper" id="sidemenu-wrapper">
     <div class="sidemenu-content">
         <button class="closeButton border-theme text-theme bg-theme-hover sideMenuCls"><i class="far fa-times"></i>
         </button>
         <div class="widget woocommerce widget_shopping_cart">
             <h3 class="widget_title">Корзина</h3>
             <div class="widget_shopping_cart_content">
-                <ul class="woocommerce-mini-cart cart_list product_list_widget" id="product_list_widget">
+                <ul class="woocommerce-mini-cart cart_list product_list_widget" id="product_list">
                     {{--                    <li class="woocommerce-mini-cart-item mini_cart_item">--}}
                     {{--                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a href="#">--}}
                     {{--                        <a href="#"><img src="assets/img/cart/cart-img-1-1.jpg" alt="Cart Image">Hot Burger</a>--}}
@@ -698,7 +699,7 @@ Sidemenu
                 </p>
                 <p class="woocommerce-mini-cart__buttons buttons">
                     <button class="vs-btn style1 wc-forward clear-basket">Очистить</button>
-                    <button class="vs-btn style1 checkout wc-forward">Оплатить</button>
+                    <button class="vs-btn style1 checkout wc-forward sideMenuCls">Оплатить</button>
                 </p>
             </div>
         </div>
@@ -914,7 +915,7 @@ Sidemenu
             {},
             function (response) {
                 let total = 0;
-                $('#product_list_widget').empty();
+                $('#product_list').empty();
                 $('#total').empty();
 
                 $.each(response.response, function (key, value) {
@@ -929,7 +930,8 @@ Sidemenu
                     </li>
                     `;
                     total += value.item_variant.price * value.quantity;
-                    $('#product_list_widget').append(html);
+                    $('#product_list').append(html);
+                    $('#vs-mobile-menu').append(html);
                 });
 
                 let totalHtml = `
@@ -1026,7 +1028,7 @@ Sidemenu
             );
         });
 
-        $(document).on('click', '.getBasket', function () {
+        $(document).on('click', '.get-basket', function () {
             updateBasket();
             updateBasketCount();
         });
@@ -1037,7 +1039,7 @@ Sidemenu
 <script>
     $(document).ready(function () {
         // бургерное меню у мобильной версии
-        $('body > header > div > div > div.col-6.col-md-9.col-lg-7.col-xl-5.position-static > button').on('click', function () {
+        $('.mobile-menu-btn').on('click', function () {
             let $target = $('body > div.vs-menu-wrapper');
 
             if ($target.hasClass('vs-body-visible')) {
@@ -1046,13 +1048,14 @@ Sidemenu
                 $target.addClass('vs-body-visible');
             }
 
-            //крестик в мобильной версии у меню
+            // крестик в мобильной версии у меню
             $('body > div.vs-menu-wrapper.vs-body-visible > div > button').unbind().on('focus', function () {
                 $('body > div.vs-menu-wrapper').removeClass('vs-body-visible');
-            })
-        })
-    })
+            });
+        });
+    });
 </script>
+
 
 </body>
 
