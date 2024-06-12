@@ -15306,4 +15306,10 @@ table.checkout-ordertable tfoot tr:last-child td {
   }
 }
 
+@media (min-width: 900px) {
+  .hide-on-large {
+    display: none!important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

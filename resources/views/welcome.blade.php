@@ -140,124 +140,6 @@ Mobile Menu
             <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
         </div>
         <div class="vs-mobile-menu link-inherit" style="">
-            <ul>
-                <li class="menu-item-has-children vs-item-has-children">
-                    <a href="index.html" class="vs-mean-expand">Home</a>
-                    <ul class="sub-menu vs-submenu" style="display: none;">
-                        <li><a href="index.html">Home Style 1</a></li>
-                        <li><a href="index-2.html">Home Style 2</a></li>
-                        <li><a href="index-3.html">Home Style 3</a></li>
-                        <li><a href="index-4.html">Home Style 4</a></li>
-                        <li><a href="index-5.html">Home Style 5</a></li>
-                        <li><a href="index-6.html">Home Style 6</a></li>
-                        <li><a href="index-7.html">Home Style 7</a></li>
-                        <li><a href="index-8.html">Home Style 8</a></li>
-                        <li><a href="index-9.html">Home Style 9</a></li>
-                        <li><a href="index-onepage.html">Home Style 1 (One Page)</a></li>
-                        <li><a href="index-2-onepage.html">Home Style 2 (One Page)</a></li>
-                        <li><a href="index-3-onepage.html">Home Style 3 (One Page)</a></li>
-                        <li><a href="index-4-onepage.html">Home Style 4 (One Page)</a></li>
-                        <li><a href="index-5-onepage.html">Home Style 5 (One Page)</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children vs-item-has-children">
-                    <a href="about.html" class="vs-mean-expand">About</a>
-                    <ul class="sub-menu vs-submenu" style="display: none;">
-                        <li><a href="about.html">About One</a></li>
-                        <li><a href="about-2.html">About Two</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children vs-item-has-children">
-                    <a href="blog.html" class="vs-mean-expand">Blog</a>
-                    <ul class="sub-menu vs-submenu" style="display: none;">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                        <li><a href="blog-grid-2.html">Blog Grid Two</a></li>
-                        <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
-                        <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
-                        <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
-                        <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                    </ul>
-                </li>
-                <li class="mega-menu-wrap menu-item-has-children vs-item-has-children">
-                    <a href="#" class="vs-mean-expand">Pages</a>
-                    <ul class="mega-menu vs-submenu" style="display: none;">
-                        <li class="vs-item-has-children"><a href="shop.html" class="vs-mean-expand">Pagelist 1</a>
-                            <ul class="vs-submenu" style="display: none;">
-                                <li><a href="index.html">Home Style 1</a></li>
-                                <li><a href="index-2.html">Home Style 2</a></li>
-                                <li><a href="index-3.html">Home Style 3</a></li>
-                                <li><a href="index-4.html">Home Style 4</a></li>
-                                <li><a href="index-5.html">Home Style 5</a></li>
-                                <li><a href="index-6.html">Home Style 6</a></li>
-                                <li><a href="index-7.html">Home Style 7</a></li>
-                                <li><a href="index-onepage.html">Home Style 1 (One Page)</a></li>
-                                <li><a href="index-2-onepage.html">Home Style 2 (One Page)</a></li>
-                                <li><a href="index-3-onepage.html">Home Style 3 (One Page)</a></li>
-                                <li><a href="index-4-onepage.html">Home Style 4 (One Page)</a></li>
-                                <li><a href="index-5-onepage.html">Home Style 5 (One Page)</a></li>
-                                <li><a href="about.html">About One</a></li>
-                                <li><a href="about-2.html">About Two</a></li>
-                            </ul>
-                        </li>
-                        <li class="vs-item-has-children"><a href="#" class="vs-mean-expand">Pagelist 2</a>
-                            <ul class="vs-submenu" style="display: none;">
-                                <li><a href="chef.html">Chef One</a></li>
-                                <li><a href="chef-2.html">Chef Two</a></li>
-                                <li><a href="chef-details.html">Chef Details</a></li>
-                                <li><a href="menu.html">Menu One</a></li>
-                                <li><a href="menu-2.html">Menu Two</a></li>
-                                <li><a href="menu-3.html">Menu Three</a></li>
-                                <li><a href="menu-4.html">Menu Four</a></li>
-                                <li><a href="menu-details.html">Menu Details</a></li>
-                                <li><a href="reservation.html">Reservation</a></li>
-                                <li><a href="reservation-2.html">Reservation Two</a></li>
-                                <li><a href="contact.html">Contact One</a></li>
-                            </ul>
-                        </li>
-                        <li class="vs-item-has-children"><a href="#" class="vs-mean-expand">Pagelist 3</a>
-                            <ul class="vs-submenu" style="display: none;">
-                                <li><a href="contact-2.html">Contact Two</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                <li><a href="blog-grid-2.html">Blog Grid Two</a></li>
-                                <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
-                                <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                                <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
-                                <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li class="vs-item-has-children"><a href="#" class="vs-mean-expand">Pagelist 4</a>
-                            <ul class="vs-submenu" style="display: none;">
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
-                                <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                <li><a href="shop-details.html">Shop Details</a></li>
-                                <li><a href="shop-details-sidebar.html">Shop Details Sidebar</a></li>
-                                <li><a href="shop-details-left-sidebar.html">Shop Details Left Sidebar</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="login.html">Sign In</a></li>
-                                <li><a href="sign-up.html">Sign Up</a></li>
-                                <li><a href="error.html">Error Page</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children vs-item-has-children">
-                    <a href="contact.html" class="vs-mean-expand">Contact</a>
-                    <ul class="sub-menu vs-submenu" style="display: none;">
-                        <li><a href="contact.html">Contact One</a></li>
-                        <li><a href="contact-2.html">Contact Two</a></li>
-                    </ul>
-                </li>
-            </ul>
         </div><!-- Menu Will Append With Javascript -->
     </div>
 </div>
@@ -281,7 +163,7 @@ Mobile Menu
                         <li><a href="#about">О нас</a></li>
                         <li><a href="#app">Приложение</a></li>
                         <li><a href="#blog">Блог</a></li>
-                        <li><a href="#" class="mobile-menu-btn sideMenuToggler">Корзина</a></li>
+                        <li><a href="#" class="mobile-menu-btn sideMenuToggler hide-on-large">Корзина</a></li>
                     </ul>
                 </nav>
                 <button type="button"
