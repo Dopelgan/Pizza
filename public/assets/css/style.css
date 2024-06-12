@@ -15306,7 +15306,7 @@ table.checkout-ordertable tfoot tr:last-child td {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   .hide-on-large {
     display: none!important;
   }
