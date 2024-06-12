@@ -347,7 +347,7 @@ Mobile Menu
         </div>
         <div class="vs-hero-slide ls-slide" data-ls="duration: 7000; transition2d: 5;">
             <img src="assets/img/hero/hero-img-5-bg-1.png" alt="Slide Image" class="ls-bg">
-            <img src="assets/img/hero/hero-img-5-2.png" alt="Hero Image" class="ls-l" style="left: 620px; top: 250px;"
+            <img src="assets/img/hero/hero-img-5-2.png" alt="Hero Image" class="ls-l" style="left: 620px; top: 125px;"
                  data-ls="offsetyin: top; durationin: 800; delayin: 0; easingin:easeOutQuint; offsetyout: bottom; durationout: 1000;">
             <p class="ls-l theme-font3 ls-responsive" data-ls-mobile="top: 150px; font-size: 82px;"
                data-ls-desktop="top: 317px; font-size: 48px;"
